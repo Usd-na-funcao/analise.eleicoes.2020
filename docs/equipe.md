@@ -113,11 +113,15 @@ A equipe utiliza:
 
 1. A tarefa é planejada no Jira.
 2. Um responsável assume a tarefa.
-3. O status é alterado para "Em andamento".
+3. O status é alterado de **A fazer** para **Fazendo**.
 4. O desenvolvimento é realizado em branch própria.
 5. O código/documentação é enviado ao GitHub.
-6. É realizada revisão.
-7. Após validação, a tarefa é marcada como "Concluído".
+6. Uma Pull Request é aberta e a tarefa passa para **Em análise**.
+7. É realizada a revisão e as correções necessárias.
+8. O merge aguarda autorização explícita do Gerente de Projeto.
+9. Somente após o merge confirmado na `main`, a tarefa é marcada como **Feito**.
+
+O fluxo detalhado, incluindo responsabilidades do autor, revisor e Gerente de Projeto, está em [fluxo-git-jira.md](fluxo-git-jira.md).
 
 ## Padrão de Branch
 

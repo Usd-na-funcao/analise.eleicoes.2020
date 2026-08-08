@@ -42,3 +42,12 @@ tests/        Testes automatizados
 ```
 
 > A estrutura inicial não contém datasets. Consulte a documentação antes de iniciar uma nova etapa do projeto.
+
+## Como contribuir
+
+Antes de iniciar uma tarefa, consulte:
+
+- [Guia prático de Git e Pull Requests](docs/guia-git-pratico.md)
+- [Guia rápido da equipe](docs/guia-equipe.md)
+- [Fluxo oficial Git, GitHub e Jira](docs/fluxo-git-jira.md)
+- [Como contribuir](CONTRIBUTING.md)
