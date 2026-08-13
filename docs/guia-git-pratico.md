@@ -4,6 +4,122 @@ Este guia mostra os comandos do fluxo diário para integrantes iniciantes do pro
 
 > Nunca desenvolva diretamente na `main`. Cada tarefa deve ter uma branch própria ligada ao Jira.
 
+## 0. Primeiro acesso, clone e abertura no VS Code
+
+O repositório é **privado**. Antes de clonar, cada integrante precisa:
+
+1. ter uma conta no GitHub;
+2. receber acesso ao repositório `Usd-na-funcao/analise.eleicoes.2020`;
+3. aceitar o convite recebido por e-mail ou nas notificações do GitHub;
+4. ter o Git e o Visual Studio Code instalados;
+5. autenticar no GitHub com a mesma conta que recebeu o acesso.
+
+Ter apenas o link não libera o clone de um repositório privado. Se o convite ainda não foi aceito ou a conta autenticada for outra, o GitHub poderá informar `Repository not found`.
+
+### Configuração inicial do Git
+
+No terminal do VS Code, cada integrante deve configurar o próprio nome e o e-mail associado à sua conta GitHub. Esse procedimento é feito uma vez por computador:
+
+```bash
+git config --global user.name "NOME SOBRENOME"
+git config --global user.email "EMAIL_DA_CONTA_GITHUB"
+```
+
+Confira a configuração:
+
+```bash
+git config --global user.name
+git config --global user.email
+```
+
+Não use o nome ou o e-mail de outro integrante e não coloque senha ou token nesses comandos.
+
+### Autenticação recomendada com GitHub CLI
+
+Confira se o GitHub CLI está disponível:
+
+```bash
+gh --version
+```
+
+Faça login:
+
+```bash
+gh auth login
+```
+
+Quando o assistente perguntar, selecione:
+
+1. `GitHub.com`;
+2. protocolo `HTTPS`;
+3. autenticação pelo navegador;
+4. confirme o código exibido na página oficial do GitHub.
+
+Confira se a conta correta está conectada:
+
+```bash
+gh auth status
+```
+
+Nunca envie senha, token ou código de autenticação para outra pessoa.
+
+### Clonar o repositório e abrir no VS Code
+
+Escolha no terminal a pasta onde o projeto será salvo. Exemplo para a Área de Trabalho no Windows:
+
+```powershell
+cd "$HOME\Desktop"
+gh repo clone Usd-na-funcao/analise.eleicoes.2020
+cd analise.eleicoes.2020
+code .
+```
+
+Se a pasta Área de Trabalho estiver dentro do OneDrive, entre primeiro no caminho correspondente ao seu computador e execute os três últimos comandos.
+
+Também é possível clonar com Git depois de autenticar a conta:
+
+```bash
+git clone https://github.com/Usd-na-funcao/analise.eleicoes.2020.git
+cd analise.eleicoes.2020
+code .
+```
+
+Use **uma** das duas formas de clone; não execute ambas na mesma pasta.
+
+### Verificar a conexão
+
+Com o projeto aberto no terminal do VS Code, execute:
+
+```bash
+git remote -v
+git branch --show-current
+git pull origin main
+```
+
+O remoto deve apontar para:
+
+```text
+https://github.com/Usd-na-funcao/analise.eleicoes.2020.git
+```
+
+No primeiro acesso, a branch atual deve ser `main`, e o `git pull origin main` deve concluir sem erro. Isso confirma o clone e a leitura do repositório.
+
+Para confirmar que possui permissão de escrita sem alterar o repositório, execute:
+
+```bash
+git push --dry-run origin main
+```
+
+Esse comando faz apenas uma simulação. Ele não substitui o fluxo oficial: mesmo com acesso administrativo, ninguém deve desenvolver nem fazer push diretamente na `main`.
+
+### Problemas comuns de acesso
+
+- `Repository not found`: confirme se o convite foi aceito e se `gh auth status` mostra a conta convidada.
+- solicitação repetida de autenticação: execute `gh auth login` novamente e escolha HTTPS.
+- `Permission denied` no push: peça ao Gerente de Projeto para conferir seu acesso ao repositório.
+- comando `code` não encontrado: abra o VS Code manualmente, selecione **Arquivo → Abrir Pasta** e escolha `analise.eleicoes.2020`.
+- comando `gh` não encontrado: instale o GitHub CLI ou use o comando `git clone` apresentado acima.
+
 ## 1. Antes de começar qualquer tarefa
 
 No Jira, leia a issue, assuma a responsabilidade e mova-a de **A fazer** para **Fazendo**. Depois, atualize a `main`:
@@ -313,4 +429,4 @@ Esses comandos não fazem parte do fluxo normal da equipe e podem apagar trabalh
 
 Se o revisor aprovar, a issue permanece **Em análise**, na condição de aguardando merge. Alexandre deve autorizar explicitamente. O autor, o revisor e o Cline não devem interpretar silêncio como autorização nem realizar merge antes dessa resposta.
 
-Somente após confirmar que a PR foi realmente integrada à `main`, o revisor ou o Gerente pode mover a issue para **Feito**.
+Somente após confirmar que a PR foi realmente integrada à `main`, o QA valida se a entrega e os arquivos esperados foram publicados corretamente. Depois dessa validação, o QA pode mover a issue para **Feito**. O QA não autoriza o merge e não deve antecipar essa mudança de status.
