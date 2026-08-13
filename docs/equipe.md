@@ -100,6 +100,25 @@ Responsabilidades:
 
 ---
 
+## P6 — Luigi
+### QA / Quality Assurance
+
+Responsabilidades:
+
+- validar as entregas realizadas pelos integrantes;
+- conferir os critérios de aceitação da issue Jira;
+- revisar as evidências, testes e validações apresentados;
+- confirmar se os arquivos esperados foram enviados corretamente para a branch e para a Pull Request;
+- depois do merge, confirmar se a entrega foi integrada corretamente à `main`;
+- verificar se não há arquivos esperados ausentes nem arquivos indevidos no repositório;
+- registrar no Jira o resultado da validação;
+- solicitar correções quando a entrega não estiver correta;
+- mover a issue para **Feito** somente após a PR estar revisada, o merge ser explicitamente autorizado pelo Gerente de Projeto e a integração na `main` estar confirmada.
+
+O QA não autoriza merge e não deve mover uma issue para **Feito** apenas porque o desenvolvimento ou a revisão terminou. Se encontrar um problema, deve registrar o resultado e devolver a entrega para correção conforme o fluxo oficial.
+
+---
+
 # Organização
 
 A equipe utiliza:
@@ -119,7 +138,8 @@ A equipe utiliza:
 6. Uma Pull Request é aberta e a tarefa passa para **Em análise**.
 7. É realizada a revisão e as correções necessárias.
 8. O merge aguarda autorização explícita do Gerente de Projeto.
-9. Somente após o merge confirmado na `main`, a tarefa é marcada como **Feito**.
+9. Após o merge, o QA confirma se a entrega e os arquivos esperados foram integrados corretamente à `main`.
+10. Somente depois dessa validação, o QA move a tarefa para **Feito** no Jira.
 
 O fluxo detalhado, incluindo responsabilidades do autor, revisor e Gerente de Projeto, está em [fluxo-git-jira.md](fluxo-git-jira.md).
 
