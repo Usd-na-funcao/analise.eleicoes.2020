@@ -35,3 +35,5 @@ Dashboard e Storytelling
 - **Dashboard e Storytelling:** apresentação dos indicadores e descobertas.
 
 > A arquitetura é apenas uma referência nesta etapa. A issue ELEICOES-8 não implementa ETL, banco de dados, análises ou dashboards.
+
+
