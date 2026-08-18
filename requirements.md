@@ -1,4 +1,3 @@
-O ChatGPT disse:
 # Requisitos do BI — Eleições Municipais de 2020 em São Paulo
 
 > Documento de requisitos para o desenvolvimento do BI de análise das Eleições Municipais de 2020 no município de São Paulo.
