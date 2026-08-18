@@ -1,101 +1,142 @@
-# Requisitos do BI — Eleições Municipais de 2020 em São Paulo
+# 📊 Requisitos do BI — Eleições Municipais de 2020 em São Paulo
 
-**Versão:** 0.1  
-**Status:** Rascunho para revisão  
-**Escopo:** exclusivamente Eleições Municipais de 2020 no município de São Paulo (capital), incluindo 1º e 2º turnos quando aplicável.  
-**Issue:** a referenciar na issue do projeto após a criação/atualização do artefato.
+> **Status:** 🟡 Rascunho para revisão  
+> **Versão:** `0.1`  
+> **Escopo:** Município de São Paulo (capital) · Eleições Municipais de 2020 · 1º e 2º turnos, quando aplicável  
+> **Artefato:** `/docs/requisitos-bi.md`  
+> **Issue:** a preencher
 
-## 1. Objetivo
+---
 
-Definir os requisitos iniciais de um BI para análise das Eleições Municipais de 2020 no município de São Paulo, organizando perguntas de negócio, indicadores candidatos, fontes oficiais e uma hipótese inicial de granularidade.
+## 📌 Sumário
 
-O BI deverá priorizar transparência, rastreabilidade e reprodução dos resultados a partir de dados oficiais da Justiça Eleitoral. Não fazem parte deste escopo outras eleições, outros municípios ou análises causais que não possam ser sustentadas pelas fontes selecionadas.
+- [Objetivo](#-objetivo)
+- [Pergunta principal](#-pergunta-principal)
+- [Perguntas secundárias](#-perguntas-secundárias)
+- [KPIs candidatos](#-kpis-candidatos)
+- [Fontes oficiais](#-fontes-oficiais)
+- [Granularidade](#-granularidade)
+- [Escopo funcional](#-escopo-funcional)
+- [Restrições](#-restrições)
+- [Qualidade e validação](#-qualidade-e-validação)
+- [Entregáveis](#-entregáveis)
+- [Versionamento](#-versionamento)
+- [Pontos em aberto](#-pontos-em-aberto)
 
-## 2. Stakeholders
+---
 
-- **Analista de dados/BI:** responsável por exploração, modelagem, validação e visualizações.
-- **Gestor/solicitante do projeto:** responsável por validar perguntas, prioridades e interpretação dos indicadores.
-- **Usuário final/consultor eleitoral:** interessado em consultar resultados, participação eleitoral, candidaturas e distribuição de votos.
-- **Equipe técnica/revisão:** responsável por qualidade dos dados, versionamento, documentação e segurança.
+## 🎯 Objetivo
 
-## 3. Pergunta principal
+Definir os requisitos iniciais de um **BI para análise das Eleições Municipais de 2020 no município de São Paulo**, com foco em:
 
-**Como se distribuíram os votos e a participação eleitoral nas Eleições Municipais de 2020 no município de São Paulo, considerando prefeito e vereador e os diferentes níveis de agregação disponíveis nos dados oficiais?**
+- resultados para **prefeito e vereador**;
+- participação eleitoral;
+- candidaturas;
+- distribuição de votos;
+- análise por partido/legenda;
+- análise territorial, quando suportada pelos dados oficiais.
 
-## 4. Perguntas secundárias
+O BI deverá priorizar:
 
-1. Quais foram os resultados dos candidatos a prefeito no 1º e no 2º turno?
-2. Como se distribuíram os votos válidos entre candidatos e partidos/legendas?
-3. Como foram o comparecimento e a abstenção eleitoral no município?
-4. Como os resultados de vereador se distribuíram entre candidatos e partidos/legendas?
-5. Como os resultados variam entre zonas e seções eleitorais, quando essa granularidade estiver disponível e for validada?
-6. Quantas candidaturas participaram do pleito e como elas se distribuíram por cargo e partido?
-7. Quais dimensões de eleitorado disponíveis oficialmente podem ser relacionadas aos resultados sem extrapolar o que os dados permitem afirmar?
+> **Transparência · Rastreabilidade · Reprodutibilidade**
 
-## 5. KPIs candidatos
+Os resultados deverão ser reproduzíveis a partir de **dados oficiais da Justiça Eleitoral**.
 
-> Os itens abaixo são **candidatos a KPI**. As fórmulas, regras de cálculo, filtros e dimensões definitivos deverão ser validados antes da implementação. Nenhuma fórmula é assumida neste documento.
+### Fora do escopo
 
-| KPI candidato | Descrição | Fonte primária | Observação |
-|---|---|---|---|
-| Votos por candidato | Quantidade de votos atribuída a cada candidato | TSE — resultados eleitorais | Validar escopo por cargo e turno |
-| Participação de votos por candidato | Participação dos votos de um candidato no conjunto de votos considerado | TSE — resultados eleitorais | Definir denominador após validação |
-| Votos por partido/legenda | Quantidade de votos registrada para partido/legenda | TSE — resultados eleitorais | Validar aplicação por cargo |
-| Comparecimento | Quantidade de eleitores que compareceram à votação | TSE/TRE-SP — totalização | Validar definição e nível de agregação |
-| Abstenção | Quantidade de eleitores que não compareceram | TSE/TRE-SP — totalização | Validar definição e nível de agregação |
-| Candidaturas por cargo | Quantidade de candidaturas registradas por cargo | TSE — candidaturas | Validar tratamento de candidaturas substituídas/canceladas |
-| Vagas por partido | Quantidade de vagas de vereador distribuídas/ocupadas por partido | TRE-SP — resultado | Validar regra e fonte definitiva |
+- ❌ Outras eleições;
+- ❌ Outros municípios;
+- ❌ Análises causais não sustentadas pelos dados;
+- ❌ Inferências além do que as fontes oficiais permitem afirmar.
 
-## 6. Fontes oficiais
+---
 
-### 6.1 Tribunal Superior Eleitoral (TSE)
+## ❓ Pergunta principal
 
-- **Eleições 2020:** https://www.tse.jus.br/eleicoes/resultados-eleicoes/eleicoes-2020
-- **Portal de Dados Abertos / Resultados 2020:** https://dados.gov.br/dados/conjuntos-dados/resultados-2020
-- **Eleições 2020 — informações e serviços:** https://www.tse.jus.br/eleicoes/eleicoes-2020
+> **Como se distribuíram os votos e a participação eleitoral nas Eleições Municipais de 2020 no município de São Paulo, considerando prefeito e vereador e os diferentes níveis de agregação disponíveis nos dados oficiais?**
 
-O TSE disponibiliza resultados, estatísticas e dados abertos. O conjunto de resultados inclui, entre outros, votação nominal por município e zona, votação em partido e dados de apuração por município/zona e seção eleitoral.
+---
 
-### 6.2 Tribunal Regional Eleitoral de São Paulo (TRE-SP)
+## 🔎 Perguntas secundárias
 
-- **Eleições 2020:** https://www.tre-sp.jus.br/eleicoes/eleicoes-anteriores/eleicoes-2020
-- **Estatísticas:** https://www.tre-sp.jus.br/eleicoes/estatisticas
-- **Consulta de dados eleitorais e documentos históricos:** https://www.tre-sp.jus.br/servicos-eleitorais/carta-de-servicos/consulta-dados-eleitorais-e-documentos-historicos
+| # | Pergunta |
+|---|---|
+| **01** | Quais foram os resultados dos candidatos a prefeito no 1º e no 2º turno? |
+| **02** | Como se distribuíram os votos válidos entre candidatos e partidos/legendas? |
+| **03** | Como foram o comparecimento e a abstenção eleitoral? |
+| **04** | Como os resultados de vereador se distribuíram entre candidatos e partidos/legendas? |
+| **05** | Como os resultados variam entre zonas e seções eleitorais? |
+| **06** | Quantas candidaturas participaram do pleito e como se distribuíram por cargo e partido? |
+| **07** | Quais dimensões do eleitorado podem ser relacionadas aos resultados sem extrapolar os dados disponíveis? |
 
-A página do TRE-SP para as Eleições 2020 disponibiliza resultados do município de São Paulo, incluindo prefeito no 1º turno, prefeito eleito no 2º turno, vereadores eleitos, distribuição de vagas e totalização de comparecimento/abstenção.
+---
 
-## 7. Granularidade inicial — hipótese a validar
+## 📈 KPIs candidatos
 
-A granularidade inicial é uma **hipótese de modelagem**, não um requisito definitivo.
+> ⚠️ **Importante:** os indicadores abaixo são candidatos a KPI.  
+> Fórmulas, denominadores, filtros e dimensões deverão ser validados antes da implementação.
 
-**Hipótese inicial:**
+| KPI | Descrição | Fonte |
+|---|---|---|
+| **Votos por candidato** | Quantidade de votos atribuída a cada candidato | TSE |
+| **Participação de votos** | Participação de um candidato no conjunto de votos considerado | TSE |
+| **Votos por partido/legenda** | Quantidade de votos registrada para partido/legenda | TSE |
+| **Comparecimento** | Quantidade de eleitores que compareceram | TSE / TRE-SP |
+| **Abstenção** | Quantidade de eleitores que não compareceram | TSE / TRE-SP |
+| **Candidaturas por cargo** | Quantidade de candidaturas registradas | TSE |
+| **Vagas por partido** | Quantidade de vagas de vereador distribuídas/ocupadas | TRE-SP |
 
-- **Eleição/turno + município + cargo + candidato/partido**, para análises consolidadas de resultado.
-- Quando os dados oficiais permitirem e a necessidade for confirmada: **eleição/turno + município + zona eleitoral + seção eleitoral + cargo + candidato/partido**.
+### Critérios para definição dos KPIs
 
-A granularidade definitiva deverá ser validada após inspeção dos arquivos oficiais, verificando chaves, duplicidades, cobertura dos campos, compatibilidade entre arquivos e possibilidade de relacionamentos sem perda ou duplicação de registros.
+Cada KPI deverá possuir:
 
-## 8. Restrições de escopo e segurança
+- definição funcional;
+- fórmula;
+- denominador, quando aplicável;
+- filtros;
+- dimensões;
+- granularidade;
+- fonte de origem;
+- regras de tratamento;
+- regra de validação;
+- exemplo de cálculo.
 
-- Considerar somente o **município de São Paulo (capital)**.
-- Considerar somente as **Eleições Municipais de 2020**.
-- Não incorporar eleições de 2016, 2022, 2024 ou outros pleitos como parte do BI inicial.
-- Não inferir causalidade a partir dos resultados eleitorais.
-- Utilizar fontes oficiais como referência primária.
-- Não armazenar ou expor credenciais, tokens, chaves de API, senhas ou outros segredos no repositório.
-- URLs e identificadores de arquivos de dados não são credenciais e podem ser documentados quando necessários para rastreabilidade.
+---
 
-## 9. Versionamento e revisão
+## 🏛️ Fontes oficiais
 
-**Versão atual:** 0.1
+### Tribunal Superior Eleitoral — TSE
 
-Antes da implementação do BI, revisar e registrar:
+| Fonte | Finalidade |
+|---|---|
+| [Eleições 2020](https://www.tse.jus.br/eleicoes/resultados-eleicoes/eleicoes-2020) | Resultados oficiais |
+| [Dados Abertos — Resultados 2020](https://dados.gov.br/dados/conjuntos-dados/resultados-2020) | Bases para processamento e análise |
+| [Eleições 2020 — informações e serviços](https://www.tse.jus.br/eleicoes/eleicoes-2020) | Informações complementares |
 
-- perguntas priorizadas;
-- definição final dos KPIs;
-- fontes/arquivos efetivamente utilizados;
-- granularidade validada;
-- regras de tratamento de dados;
-- responsável pela validação.
+O TSE disponibiliza resultados, estatísticas e dados abertos, incluindo informações de votação nominal, partidos, municípios, zonas e seções eleitorais.
 
-**Referência da issue:** a issue responsável pelo BI deve referenciar este artefato por caminho (`/docs/requisitos-bi.md`) e registrar a versão aprovada. A referência da issue deve ser preenchida quando a issue estiver disponível.
+### Tribunal Regional Eleitoral de São Paulo — TRE-SP
+
+| Fonte | Finalidade |
+|---|---|
+| [Eleições 2020](https://www.tre-sp.jus.br/eleicoes/eleicoes-anteriores/eleicoes-2020) | Resultados e informações do pleito |
+| [Estatísticas](https://www.tre-sp.jus.br/eleicoes/estatisticas) | Estatísticas eleitorais |
+| [Consulta de dados eleitorais](https://www.tre-sp.jus.br/servicos-eleitorais/carta-de-servicos/consulta-dados-eleitorais-e-documentos-historicos) | Dados e documentos históricos |
+
+> **Fonte primária:** Justiça Eleitoral  
+> **Fontes prioritárias:** TSE e TRE-SP
+
+---
+
+## 🧩 Granularidade
+
+A granularidade abaixo é uma **hipótese inicial de modelagem** e deverá ser validada após a inspeção dos arquivos oficiais.
+
+### Nível consolidado
+
+```text
+Eleição
+  └── Turno
+      └── Município
+          └── Cargo
+              └── Candidato / Partido
