@@ -9,7 +9,7 @@ municipais de 2020, com informações especificamente sobre o estado de São Pau
 - SP - Hash SHA2 - Segundo turno - 30.11.2020
 - Comparecimento e Abstenção
 
-## Links para acesso aos arquivos
+## Links para acesso aos arquivos (Data de acesso 21/08/2026)
 
 - https://dadosabertos.tse.jus.br/dataset/resultados-2020-boletim-de-urna
 - SP - Boletim de urna - Primeiro turno - 18.11.2020
