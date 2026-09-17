@@ -4,12 +4,12 @@
 
 | Etapa | Ferramenta | O que fazer | Resultado |
 |---|---|---|---|
-| **1. Conhecer os arquivos** | Explorador de arquivos + Excel | Abrir os CSVs e identificar o que existe em cada um | Lista dos arquivos |
-| **2. Visualizar os dados** | Excel | Conferir colunas, primeiras linhas e exemplos dos valores | Entendimento inicial dos dados |
-| **3. Conferir estrutura** | Excel + VS Code (se necessário) | Verificar separador, cabeçalho e se os caracteres aparecem corretamente | Encoding/separador identificados |
-| **4. Entender os campos** | Excel | Identificar o que cada coluna parece representar e quais são os tipos de dados | Informações para o dicionário |
-| **5. Verificar relações** | Excel | Procurar colunas em comum entre os arquivos, principalmente IDs/códigos | Possíveis chaves e relacionamentos |
-| **6. Conferir o escopo** | Excel | Verificar se os registros correspondem a São Paulo capital e às Eleições 2020 | Validação do escopo |
+| **1. Conhecer os arquivos** | Explorador de arquivos | Identificar os arquivos disponíveis e entender o conteúdo de cada um | Lista dos arquivos |
+| **2. Visualizar os dados** | Python / Google Colab | Conferir colunas, primeiras linhas e exemplos dos valores | Entendimento inicial dos dados |
+| **3. Conferir estrutura** | Python / Google Colab | Verificar separador, cabeçalho, encoding e estrutura dos arquivos | Encoding/separador identificados |
+| **4. Entender os campos** | Python / Google Colab | Identificar o que cada coluna parece representar e quais são os tipos de dados | Informações para o dicionário |
+| **5. Verificar relações** | Python / Google Colab | Procurar colunas em comum entre os arquivos, principalmente IDs/códigos | Possíveis chaves e relacionamentos |
+| **6. Conferir o escopo** | Python / Google Colab | Verificar se os registros correspondem a São Paulo capital e às Eleições 2020 | Validação do escopo |
 | **7. Documentar** | VS Code | Preencher `docs/dicionario-dados.md` com tudo que foi descoberto | **Entrega principal da atividade** |
 
 ---
@@ -184,6 +184,5 @@ Foi realizada a conferência do escopo das bases, verificando ano, estado, munic
 | Ferramenta | Utilização |
 |---|---|
 | **Python / Google Colab** | Leitura dos arquivos CSV, análise das colunas, visualização dos registros e verificação da estrutura dos dados. |
-| **Excel** | Visualização dos dados, conferência das colunas e exemplos de valores. |
 | **VS Code** | Edição e documentação do arquivo `docs/dicionario-dados.md`. |
 | **Explorador de arquivos** | Identificação e organização dos arquivos utilizados na atividade. |
