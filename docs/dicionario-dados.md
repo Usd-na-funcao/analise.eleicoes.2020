@@ -183,6 +183,6 @@ Foi realizada a conferência do escopo das bases, verificando ano, estado, munic
 
 | Ferramenta | Utilização |
 |---|---|
-| **Python / Google Colab** | Leitura dos arquivos CSV, análise das colunas, visualização dos registros e verificação da estrutura dos dados. |
+| **Python / Google Colab** | Leitura dos arquivos CSV, análise das colunas, visualização dos registros, verificação do encoding e do separador e análise da estrutura dos dados. |
 | **VS Code** | Edição e documentação do arquivo `docs/dicionario-dados.md`. |
 | **Explorador de arquivos** | Identificação e organização dos arquivos utilizados na atividade. |
