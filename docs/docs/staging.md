@@ -4,6 +4,18 @@
 
 Criar uma camada de staging no PostgreSQL para receber amostras dos datasets do TSE de 2020, mantendo os arquivos originais preservados e permitindo a validação inicial dos dados.
 
+## Tecnologias utilizadas
+
+| Tecnologia | Utilização |
+|---|---|
+| PostgreSQL | Banco de dados utilizado para armazenar as tabelas da camada staging. |
+| pgAdmin | Interface utilizada para criar o schema, tabelas, realizar a importação dos CSVs e executar as consultas de validação. |
+| Python | Utilizado para criar as amostras dos arquivos CSV e realizar ajustes necessários para a importação. |
+| Google Colab | Ambiente utilizado para executar os scripts Python e trabalhar com os arquivos CSV. |
+| GitHub | Utilizado para versionar o código SQL e armazenar a documentação do projeto. |
+| SQL | Utilizado para criação das estruturas, consultas e validações no PostgreSQL. |
+| CSV | Formato dos arquivos de origem disponibilizados pelo TSE. |
+
 ## Fontes de dados
 
 Foram utilizados quatro arquivos CSV do TSE:
@@ -38,6 +50,8 @@ Foram utilizadas amostras de **10.000 registros de cada arquivo** para realizar 
 
 Os arquivos originais do TSE foram preservados.
 
+As amostras foram preparadas no Google Colab utilizando Python antes da importação para o PostgreSQL.
+
 ## Ajustes realizados
 
 Durante a importação foram necessários alguns ajustes:
@@ -50,7 +64,7 @@ Durante a importação foram necessários alguns ajustes:
 
 ## Validação
 
-Após a carga, foram realizadas consultas para verificar a quantidade de registros e o preenchimento de campos críticos.
+Após a carga, foram realizadas consultas SQL no pgAdmin para verificar a quantidade de registros e o preenchimento de campos críticos.
 
 Resultado final:
 
@@ -63,8 +77,14 @@ Resultado final:
 
 Também foram validados campos importantes de cada tabela, como identificadores, município, zona, seção e quantidade de votos/eleitores.
 
+## Rastreabilidade
+
+A relação entre os arquivos de origem e as tabelas de destino foi mantida por meio do mapeamento apresentado na seção **Fontes de dados**.
+
+Os arquivos originais foram preservados e as amostras utilizadas na carga foram geradas separadamente.
+
 ## Resultado
 
 A camada staging foi criada, carregada e validada com amostras dos dados reais do TSE.
 
-O processo mantém a rastreabilidade entre os arquivos de origem e as tabelas correspondentes no PostgreSQL, além de permitir a reprodução da estrutura por meio do DDL versionado.
+O processo permite a reprodução da estrutura do banco por meio do DDL versionado e mantém a relação entre os arquivos de origem e as respectivas tabelas de staging.
