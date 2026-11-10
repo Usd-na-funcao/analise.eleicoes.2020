@@ -1,122 +1,155 @@
-# Arquitetura do projeto
-
-Este documento apresenta a arquitetura conceitual prevista para o projeto **BI Eleições 2020 — São Paulo**.
-
+# Arquitetura do Projeto
+ 
+Este documento apresenta a arquitetura conceitual do projeto **BI Eleições 2020 — São Paulo**, considerando as ferramentas, tecnologias e etapas definidas para a preparação, organização e análise dos dados eleitorais.
+ 
 ```text
 Portal TSE
     ↓
-Dados RAW
+Arquivos CSV
     ↓
 Python / Pandas
     ↓
+Inspeção e Visualização das Colunas
+    ↓
+Criação de Amostras (10.000 linhas)
+    ↓
+Tratamento de Valores Nulos (\N)
+    ↓
+SQL Server / T-SQL
+    ↓
 Staging
     ↓
-PostgreSQL
+Data Mart
     ↓
-ETL
+Consultas e Análises
     ↓
-Data Warehouse / Data Mart
-    ↓
-Python / Jupyter + Power BI
-    ↓
-Dashboard e Storytelling
+Visualização dos Resultados
 ```
-
-## Responsabilidades conceituais
-
-- **Portal TSE:** fonte oficial dos dados eleitorais.
-- **Dados RAW:** cópia local imutável dos arquivos de origem, fora do Git.
-- **Python / Pandas:** leitura, validação e preparação dos dados.
-- **Staging:** área intermediária para recebimento e padronização.
-- **PostgreSQL:** persistência dos dados estruturados.
-- **ETL:** fluxo de extração, transformação e carga.
-- **Data Warehouse / Data Mart:** camada analítica modelada para consultas de negócio.
-- **Python / Jupyter + Power BI:** análise, visualização e consumo dos dados.
-- **Dashboard e Storytelling:** apresentação dos indicadores e descobertas.
-
-> A arquitetura é apenas uma referência nesta etapa. A issue ELEICOES-8 não implementa ETL, banco de dados, análises ou dashboards.
-
-# 2. Detalhamento Operacional por Etapa
-
+ 
+## 1. Responsabilidades Conceituais
+ 
+- **Portal TSE:** fonte oficial dos dados eleitorais utilizados no projeto.
+- **Arquivos CSV:** arquivos públicos disponibilizados pelo Tribunal Superior Eleitoral.
+- **Python / Pandas:** utilizado para leitura inicial dos arquivos, inspeção e visualização dos nomes e da estrutura das colunas.
+- **Amostragem:** criação de arquivos reduzidos contendo até 10.000 registros, além do cabeçalho, para facilitar a manipulação dos dados.
+- **Tratamento de Valores Nulos:** substituição dos campos vazios pelo marcador `\N`, preparando os arquivos para importação no banco de dados.
+- **SQL Server / T-SQL:** tecnologia utilizada para armazenamento, manipulação, tratamento e consultas dos dados.
+- **Staging:** camada intermediária para recebimento, organização e validação dos dados importados.
+- **Data Mart:** camada analítica destinada à organização dos dados conforme os objetivos e indicadores do projeto.
+- **Consultas e Análises:** exploração dos dados eleitorais por meio de consultas SQL e visualização com Python/Pandas.
+## 2. Detalhamento Operacional por Etapa
+ 
 ### Etapa 1: Fonte de Dados
-* **Descrição:** Obtenção automatizada dos arquivos públicos de dados eleitorais no portal do Tribunal Superior Eleitoral (TSE).
-* **Ferramenta:** Python (`requests` / `urllib` / `zipfile`).
-* **Entregável:** Arquivos originais `.zip` baixados diretamente dos repositórios oficiais sem qualquer manipulação.
-* **Frequência:** Carga sob demanda ou agendada conforme a disponibilização de novas eleições/atualizações.
-
-### Etapa 2: Organização e Governança dos Arquivos
-* **Descrição:** Estruturação lógica dos diretórios de armazenamento no repositório local/Data Lake.
-* **Estrutura de Pastas:**
-  * `data/raw/`: Repositório imutável contendo os arquivos baixados exatamente na forma original.
-  * `data/processed/`: Arquivos intermediários em formato otimizado (ex: Parquet) pós-sanitização preliminar.
-* **Diretrizes de Qualidade:** É expressamente proibida a alteração manual dos arquivos residentes em `data/raw/`.
-
-### Etapa 3: Tratamento e Sanitização de Dados
-* **Descrição:** Limpeza, transformação, padronização de tipos e codificação.
-* **Ferramentas:** Python (Pandas / Polars / PyArrow).
-* **Processos Aplicados:**
-  * **Correção de Encoding:** Conversão da codificação original (`ISO-8859-1` / `Latin-1`) para `UTF-8`.
-  * **Padronização de Schema:** Normalização dos nomes de colunas para *snake_case* sem caracteres especiais ou acentuação.
-  * **Tratamento de Anomalias:** Substituição de marcadores nulos (`#NULO#`, `#NE#`, `-1`, `-3`) por `NULL` nativo.
-  * **Casting de Tipos:** Conversão explícita de strings de datas (`DD/MM/YYYY`) para tipo `Date`, valores monetários para `Numeric/Float` e identificadores para `Varchar/Integer`.
-
-### Etapa 4: Camada de Staging
-* **Descrição:** Carga dos dados limpos em tabelas temporárias/espelho no banco de dados.
-* **Ferramenta:** PostgreSQL (`schema: staging`).
-* **Objetivo:** Permitir a validação das regras de negócio e consultas preliminares via linguagem SQL sem impactar a camada de produção (DW).
-* **Comportamento:** Carga automatizada via script Python, com recriação ou atualização controlada das tabelas.
-
-### Etapa 5: Arquitetura de Banco de Dados (PostgreSQL)
-O PostgreSQL atua como o motor relacional centralizado, estruturado em três schemas lógicos distintos:
-1. `staging`: Área temporária de validação de dados limpos.
-2. `dw`: Camada de consolidação histórica, modelada para análises eficientes (Star Schema / Snowflake).
-3. `marts`: Camada de apresentação contendo Views e tabelas agregadas prontas para consumo final.
-
-### Etapa 6: Data Warehouse e Data Marts
-* **Descrição:** Estruturação dimensional focada na otimização de performance analítica.
-* **Modelagem Dimensional:**
-  * **Tabelas Dimensão (`dw.dim_*`):** Entidades de contexto descritivo (ex: `dim_candidato`, `dim_municipio`, `dim_eleicao`, `dim_partido`).
-  * **Tabelas Fato (`dw.fato_*`):** Eventos quantitativos e acumuladores de métricas (ex: `fato_votacao_secao`, `fato_declaracao_bens`).
-  * **Data Marts (`marts.vw_*`):** Views simplificadas e consolidadas por área temática (ex: `marts.vw_desempenho_partidario`, `marts.vw_perfil_candidatura`).
-
-### Etapa 7: Visualização e Analytics (Power BI)
-* **Descrição:** Camada de consumo executivo e exploração visual de dados.
-* **Ferramentas:** Power BI Desktop / Power BI Service.
-* **Conexão:** Conexão otimizada (Import Mode ou DirectQuery) apontando diretamente para as Views contidas no schema `marts` do PostgreSQL.
-* **Responsabilidades no BI:** Construção do modelo visual de relacionamentos, cálculo de métricas de negócio via DAX e layout de navegação.
-
+ 
+- **Descrição:** obtenção dos arquivos públicos de dados eleitorais disponibilizados pelo Tribunal Superior Eleitoral (TSE).
+- **Fonte:** Portal de Dados Abertos do TSE.
+- **Formato:** arquivos CSV.
+- **Entregável:** arquivos eleitorais utilizados como fonte para o desenvolvimento do projeto.
+### Etapa 2: Inspeção e Visualização dos Dados
+ 
+- **Descrição:** análise inicial dos arquivos para compreender sua estrutura e identificar as colunas disponíveis.
+- **Ferramenta:** Python (Pandas).
+- **Processos aplicados:**
+  - Leitura do cabeçalho dos arquivos CSV.
+  - Identificação e visualização dos nomes das colunas.
+  - Verificação da estrutura dos arquivos.
+  - Identificação do delimitador e da codificação utilizados.
+- **Entregável:** identificação das colunas e compreensão inicial da estrutura dos dados.
+### Etapa 3: Criação de Amostras
+ 
+- **Descrição:** geração de arquivos reduzidos para facilitar a manipulação e o desenvolvimento das etapas seguintes.
+- **Ferramentas:** Python (biblioteca CSV).
+- **Processos aplicados:**
+  - Preservação do cabeçalho original.
+  - Seleção de até 10.000 registros por arquivo.
+  - Geração de novos arquivos CSV contendo as amostras.
+- **Objetivo:** reduzir o volume de dados durante o desenvolvimento e facilitar a importação no banco de dados.
+- **Entregável:** arquivos CSV de amostragem.
+### Etapa 4: Preparação e Tratamento dos Arquivos
+ 
+- **Descrição:** preparação dos arquivos amostrados para importação no banco de dados.
+- **Ferramenta:** Python (biblioteca CSV).
+- **Processos aplicados:**
+  - Preservação do delimitador original (`;`).
+  - Manutenção da estrutura das colunas.
+  - Substituição de campos vazios pelo marcador `\N`.
+  - Preservação da codificação utilizada na leitura e gravação dos arquivos.
+- **Objetivo:** adequar a representação dos valores ausentes para o processo de importação.
+- **Entregável:** arquivos CSV amostrados e preparados para carga.
+### Etapa 5: Banco de Dados e Camada de Staging
+ 
+- **Descrição:** utilização do Microsoft SQL Server como ambiente relacional para recebimento e manipulação dos dados.
+- **Ferramenta:** Microsoft SQL Server.
+- **Linguagem:** T-SQL.
+- **Objetivo:** realizar a importação, organização, validação e tratamento dos dados.
+- **Processos previstos:**
+  - Criação das estruturas de tabelas.
+  - Importação dos arquivos CSV.
+  - Definição e adequação dos tipos de dados.
+  - Consultas para validação dos registros.
+  - Aplicação das regras de tratamento e padronização.
+- **Entregável:** tabelas estruturadas na camada de Staging, preparadas para utilização na camada analítica.
+### Etapa 6: Data Mart
+ 
+- **Descrição:** organização dos dados em uma estrutura analítica direcionada aos indicadores e objetivos do projeto.
+- **Ferramenta:** Microsoft SQL Server (T-SQL).
+- **Objetivo:** disponibilizar dados organizados para consultas e análises eleitorais.
+- **Processos previstos:**
+  - Definição da estrutura analítica.
+  - Organização das informações por entidades e temas de interesse.
+  - Relacionamento entre os dados eleitorais.
+  - Criação de tabelas, consultas ou Views para apoiar as análises.
+- **Entregável:** Data Mart estruturado para exploração analítica dos dados.
+### Etapa 7: Consultas, Análises e Visualizações
+ 
+- **Descrição:** exploração dos dados e apresentação dos resultados obtidos.
+- **Ferramentas:** SQL Server (T-SQL) e Python (Pandas).
+- **Responsabilidades:**
+  - Execução de consultas analíticas utilizando T-SQL.
+  - Visualização e exploração de dados com Pandas.
+  - Identificação de padrões e indicadores eleitorais.
+  - Organização dos resultados para apresentação e storytelling.
+- **Entregável:** resultados e indicadores que apoiem a compreensão do cenário eleitoral de São Paulo em 2020.
 ---
-
+ 
 ## 3. Matriz de Responsabilidades
-
-| Camada | Entrada | Saída | Ferramenta Principais | Finalidade |
-| :--- | :--- | :--- | :--- | :--- |
-| **Ingestão** | Portal TSE | `data/raw/*.zip` | Python (`requests`) | Extração automatizada |
-| **Tratamento** | `data/raw/` | `data/processed/*.parquet` | Python (`pandas`) | Limpeza, encoding e tipagem |
-| **Staging** | `data/processed/` | `staging.stg_*` | PostgreSQL | Transição relacional |
-| **Data Warehouse**| `staging.stg_*` | `dw.dim_*` / `dw.fato_*` | PostgreSQL (SQL) | Modelagem dimensional |
-| **Data Marts** | `dw.*` | `marts.vw_*` | PostgreSQL (Views SQL) | Visões pré-agregadas |
-| **BI / Dashboards**| `marts.vw_*` | Painéis Executivos | Power BI | Apresentação e relatórios |
-
+ 
+| Camada | Entrada | Saída | Ferramenta | Finalidade |
+|---|---|---|---|---|
+| Fonte de dados | Portal TSE | Arquivos CSV | Portal TSE | Obtenção dos dados |
+| Inspeção | Arquivos CSV | Colunas identificadas | Python / Pandas | Visualização da estrutura |
+| Amostragem | Arquivos CSV | Amostras de até 10.000 registros | Python / CSV | Redução do volume |
+| Preparação | Arquivos amostrados | CSV com campos vazios representados por `\N` | Python / CSV | Preparação para importação |
+| Staging | Arquivos preparados | Tabelas de Staging | SQL Server / T-SQL | Recebimento e validação |
+| Data Mart | Dados do Staging | Estrutura analítica | SQL Server / T-SQL | Organização para análises |
+| Análises | Data Mart | Indicadores e resultados | T-SQL / Pandas | Exploração e visualização |
+ 
 ---
-
+ 
 ## 4. Estrutura Padrão do Repositório de Código
-
-O repositório do projeto segue a especificação abaixo:
-
+ 
+O repositório do projeto considera a seguinte organização:
+ 
 ```text
 projeto-tse-dados/
-├── .gitignore                    # Regras de exclusão do Git (ignora dados brutos e ambientes)
-├── README.md                     # Visão geral do projeto e instruções de uso
+├── .gitignore
+├── README.md
 ├── docs/
-│   └── arquitetura.md            # Especificação técnica da arquitetura (este documento)
-├── data/                         # Diretório de dados (não versionado)
-│   ├── raw/                      # Arquivos originais do TSE (.zip, .csv)
-│   └── processed/                # Arquivos higienizados (.parquet)
-├── scripts/                      # Códigos executáveis em Python
-│   ├── ingestion/                # Automação de download e carga no staging
-│   └── transformation/           # Tratamentos e regras de transformação
-└── sql/                          # Scripts SQL
-    ├── dw_schema/                # DDLs das tabelas Fato e Dimensão (Schema DW)
-    └── marts/                    # DDLs das Views do Data Mart (Schema Marts)
-
+│   └── arquitetura.md
+├── data/
+│   └── samples/                 # Amostras dos arquivos CSV
+├── scripts/
+│   ├── inspection/              # Inspeção e visualização dos dados
+│   └── preparation/             # Criação e preparação das amostras
+└── sql/
+    ├── staging/                 # Scripts de criação e carga das tabelas
+    └── data_mart/               # Estruturas e consultas analíticas
+```
+ 
+## 5. Considerações sobre a Arquitetura
+ 
+A arquitetura contempla uma estrutura simplificada, direcionada à construção de um Data Mart, sem implementação de Data Warehouse ou utilização de uma camada de armazenamento RAW.
+ 
+O Python foi utilizado com Pandas para inspeção e visualização das colunas dos arquivos. A geração das amostras e a substituição dos campos vazios pelo marcador `\N` foram realizadas utilizando a biblioteca CSV do Python.
+ 
+O Microsoft SQL Server será utilizado como banco de dados relacional, com T-SQL para as operações de carga, organização, tratamento e consultas dos dados na camada de Staging e no Data Mart.
