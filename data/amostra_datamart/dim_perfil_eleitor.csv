@@ -1,0 +1,878 @@
+id_perfil;ds_genero;ds_estado_civil;ds_faixa_etaria;ds_grau_escolaridade;ds_raca_cor;ds_identidade_genero;cd_genero;cd_estado_civil;cd_faixa_etaria;cd_grau_escolaridade;cd_raca_cor;cd_identidade_genero;cd_quilombola;ds_quilombola;cd_interprete_libras;ds_interprete_libras;tp_obrigatoriedade_voto
+1;FEMININO;CASADO;100 anos ou mais              ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;9999;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+2;FEMININO;CASADO;18 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;1800;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+3;FEMININO;CASADO;19 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;1900;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+4;FEMININO;CASADO;20 anos                       ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;2000;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+5;FEMININO;CASADO;20 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;2000;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+6;FEMININO;CASADO;21 a 24 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;2124;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+7;FEMININO;CASADO;21 a 24 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;2124;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+8;FEMININO;CASADO;21 a 24 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;2124;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+9;FEMININO;CASADO;21 a 24 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;2124;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+10;FEMININO;CASADO;21 a 24 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;2124;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+11;FEMININO;CASADO;25 a 29 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;2529;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+12;FEMININO;CASADO;25 a 29 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;2529;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+13;FEMININO;CASADO;25 a 29 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;2529;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+14;FEMININO;CASADO;25 a 29 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;2529;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+15;FEMININO;CASADO;25 a 29 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;2529;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+16;FEMININO;CASADO;25 a 29 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;2529;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+17;FEMININO;CASADO;30 a 34 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;3034;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+18;FEMININO;CASADO;30 a 34 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;3034;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+19;FEMININO;CASADO;30 a 34 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;3034;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+20;FEMININO;CASADO;30 a 34 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;3034;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+21;FEMININO;CASADO;30 a 34 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;3034;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+22;FEMININO;CASADO;30 a 34 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;3034;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+23;FEMININO;CASADO;35 a 39 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;3539;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+24;FEMININO;CASADO;35 a 39 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;3539;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+25;FEMININO;CASADO;35 a 39 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;3539;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+26;FEMININO;CASADO;35 a 39 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;3539;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+27;FEMININO;CASADO;35 a 39 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;3539;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+28;FEMININO;CASADO;35 a 39 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;3539;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+29;FEMININO;CASADO;35 a 39 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;3539;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+30;FEMININO;CASADO;40 a 44 anos                  ;ANALFABETO;#NE;#NE;4;3;4044;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+31;FEMININO;CASADO;40 a 44 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;4044;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+32;FEMININO;CASADO;40 a 44 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;4044;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+33;FEMININO;CASADO;40 a 44 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;4044;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+34;FEMININO;CASADO;40 a 44 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;4044;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+35;FEMININO;CASADO;40 a 44 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;4044;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+36;FEMININO;CASADO;40 a 44 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;4044;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+37;FEMININO;CASADO;40 a 44 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;4044;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+38;FEMININO;CASADO;45 a 49 anos                  ;ANALFABETO;#NE;#NE;4;3;4549;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+39;FEMININO;CASADO;45 a 49 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;4549;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+40;FEMININO;CASADO;45 a 49 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;4549;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+41;FEMININO;CASADO;45 a 49 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;4549;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+42;FEMININO;CASADO;45 a 49 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;4549;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+43;FEMININO;CASADO;45 a 49 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;4549;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+44;FEMININO;CASADO;45 a 49 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;4549;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+45;FEMININO;CASADO;45 a 49 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;4549;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+46;FEMININO;CASADO;50 a 54 anos                  ;ANALFABETO;#NE;#NE;4;3;5054;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+47;FEMININO;CASADO;50 a 54 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;5054;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+48;FEMININO;CASADO;50 a 54 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;5054;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+49;FEMININO;CASADO;50 a 54 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;5054;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+50;FEMININO;CASADO;50 a 54 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;5054;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+51;FEMININO;CASADO;50 a 54 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;5054;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+52;FEMININO;CASADO;50 a 54 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;5054;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+53;FEMININO;CASADO;50 a 54 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;5054;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+54;FEMININO;CASADO;55 a 59 anos                  ;ANALFABETO;#NE;#NE;4;3;5559;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+55;FEMININO;CASADO;55 a 59 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;5559;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+56;FEMININO;CASADO;55 a 59 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;5559;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+57;FEMININO;CASADO;55 a 59 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;5559;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+58;FEMININO;CASADO;55 a 59 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;5559;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+59;FEMININO;CASADO;55 a 59 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;5559;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+60;FEMININO;CASADO;55 a 59 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;5559;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+61;FEMININO;CASADO;55 a 59 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;5559;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+62;FEMININO;CASADO;60 a 64 anos                  ;ANALFABETO;#NE;#NE;4;3;6064;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+63;FEMININO;CASADO;60 a 64 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;6064;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+64;FEMININO;CASADO;60 a 64 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;6064;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+65;FEMININO;CASADO;60 a 64 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;6064;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+66;FEMININO;CASADO;60 a 64 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;6064;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+67;FEMININO;CASADO;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+68;FEMININO;CASADO;60 a 64 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;6064;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+69;FEMININO;CASADO;60 a 64 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;6064;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+70;FEMININO;CASADO;65 a 69 anos                  ;ANALFABETO;#NE;#NE;4;3;6569;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+71;FEMININO;CASADO;65 a 69 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;6569;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+72;FEMININO;CASADO;65 a 69 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;6569;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+73;FEMININO;CASADO;65 a 69 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;6569;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+74;FEMININO;CASADO;65 a 69 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;6569;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+75;FEMININO;CASADO;65 a 69 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;6569;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+76;FEMININO;CASADO;65 a 69 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;6569;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+77;FEMININO;CASADO;65 a 69 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;6569;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+78;FEMININO;CASADO;70 a 74 anos                  ;ANALFABETO;#NE;#NE;4;3;7074;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+79;FEMININO;CASADO;70 a 74 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;7074;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+80;FEMININO;CASADO;70 a 74 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;7074;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+81;FEMININO;CASADO;70 a 74 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;7074;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+82;FEMININO;CASADO;70 a 74 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;7074;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+83;FEMININO;CASADO;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+84;FEMININO;CASADO;70 a 74 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;7074;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+85;FEMININO;CASADO;70 a 74 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;3;7074;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+86;FEMININO;CASADO;75 a 79 anos                  ;ANALFABETO;#NE;#NE;4;3;7579;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+87;FEMININO;CASADO;75 a 79 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;7579;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+88;FEMININO;CASADO;75 a 79 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;7579;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+89;FEMININO;CASADO;75 a 79 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;7579;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+90;FEMININO;CASADO;75 a 79 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;7579;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+91;FEMININO;CASADO;75 a 79 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;7579;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+92;FEMININO;CASADO;75 a 79 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;7579;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+93;FEMININO;CASADO;80 a 84 anos                  ;ANALFABETO;#NE;#NE;4;3;8084;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+94;FEMININO;CASADO;80 a 84 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;8084;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+95;FEMININO;CASADO;80 a 84 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;8084;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+96;FEMININO;CASADO;80 a 84 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;8084;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+97;FEMININO;CASADO;80 a 84 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;8084;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+98;FEMININO;CASADO;80 a 84 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;8084;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+99;FEMININO;CASADO;80 a 84 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;8084;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+100;FEMININO;CASADO;85 a 89 anos                  ;ANALFABETO;#NE;#NE;4;3;8589;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+101;FEMININO;CASADO;85 a 89 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;8589;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+102;FEMININO;CASADO;85 a 89 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;8589;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+103;FEMININO;CASADO;85 a 89 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;8589;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+104;FEMININO;CASADO;85 a 89 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;8589;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+105;FEMININO;CASADO;85 a 89 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;8589;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+106;FEMININO;CASADO;85 a 89 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;3;8589;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+107;FEMININO;CASADO;90 a 94 anos                  ;ANALFABETO;#NE;#NE;4;3;9094;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+108;FEMININO;CASADO;90 a 94 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;9094;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+109;FEMININO;CASADO;90 a 94 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;9094;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+110;FEMININO;CASADO;90 a 94 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;9094;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+111;FEMININO;CASADO;95 a 99 anos                  ;ANALFABETO;#NE;#NE;4;3;9599;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+112;FEMININO;CASADO;95 a 99 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;3;9599;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+113;FEMININO;CASADO;95 a 99 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;3;9599;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+114;FEMININO;CASADO;95 a 99 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;3;9599;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+115;FEMININO;CASADO;95 a 99 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;3;9599;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+116;FEMININO;CASADO;95 a 99 anos                  ;LÊ E ESCREVE;#NE;#NE;4;3;9599;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+117;FEMININO;DIVORCIADO;21 a 24 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;2124;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+118;FEMININO;DIVORCIADO;25 a 29 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;2529;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+119;FEMININO;DIVORCIADO;25 a 29 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;9;2529;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+120;FEMININO;DIVORCIADO;25 a 29 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;2529;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+121;FEMININO;DIVORCIADO;30 a 34 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;3034;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+122;FEMININO;DIVORCIADO;30 a 34 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;3034;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+123;FEMININO;DIVORCIADO;30 a 34 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;9;3034;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+124;FEMININO;DIVORCIADO;30 a 34 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;3034;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+125;FEMININO;DIVORCIADO;30 a 34 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;9;3034;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+126;FEMININO;DIVORCIADO;35 a 39 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;9;3539;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+127;FEMININO;DIVORCIADO;35 a 39 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;3539;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+128;FEMININO;DIVORCIADO;35 a 39 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;3539;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+129;FEMININO;DIVORCIADO;35 a 39 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;9;3539;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+130;FEMININO;DIVORCIADO;35 a 39 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;3539;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+131;FEMININO;DIVORCIADO;35 a 39 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;9;3539;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+132;FEMININO;DIVORCIADO;40 a 44 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;9;4044;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+133;FEMININO;DIVORCIADO;40 a 44 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;4044;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+134;FEMININO;DIVORCIADO;40 a 44 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;4044;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+135;FEMININO;DIVORCIADO;40 a 44 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;9;4044;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+136;FEMININO;DIVORCIADO;40 a 44 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;4044;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+137;FEMININO;DIVORCIADO;40 a 44 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;9;4044;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+138;FEMININO;DIVORCIADO;45 a 49 anos                  ;ANALFABETO;#NE;#NE;4;9;4549;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+139;FEMININO;DIVORCIADO;45 a 49 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;9;4549;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+140;FEMININO;DIVORCIADO;45 a 49 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;4549;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+141;FEMININO;DIVORCIADO;45 a 49 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;4549;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+142;FEMININO;DIVORCIADO;45 a 49 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;9;4549;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+143;FEMININO;DIVORCIADO;45 a 49 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;4549;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+144;FEMININO;DIVORCIADO;45 a 49 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;9;4549;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+145;FEMININO;DIVORCIADO;50 a 54 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;9;5054;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+146;FEMININO;DIVORCIADO;50 a 54 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;5054;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+147;FEMININO;DIVORCIADO;50 a 54 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;5054;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+148;FEMININO;DIVORCIADO;50 a 54 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;9;5054;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+149;FEMININO;DIVORCIADO;50 a 54 anos                  ;LÊ E ESCREVE;#NE;#NE;4;9;5054;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+150;FEMININO;DIVORCIADO;50 a 54 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;5054;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+151;FEMININO;DIVORCIADO;50 a 54 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;9;5054;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+152;FEMININO;DIVORCIADO;55 a 59 anos                  ;ANALFABETO;#NE;#NE;4;9;5559;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+153;FEMININO;DIVORCIADO;55 a 59 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;9;5559;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+154;FEMININO;DIVORCIADO;55 a 59 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;5559;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+155;FEMININO;DIVORCIADO;55 a 59 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;5559;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+156;FEMININO;DIVORCIADO;55 a 59 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;9;5559;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+157;FEMININO;DIVORCIADO;55 a 59 anos                  ;LÊ E ESCREVE;#NE;#NE;4;9;5559;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+158;FEMININO;DIVORCIADO;55 a 59 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;5559;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+159;FEMININO;DIVORCIADO;55 a 59 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;9;5559;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+160;FEMININO;DIVORCIADO;60 a 64 anos                  ;ANALFABETO;#NE;#NE;4;9;6064;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+161;FEMININO;DIVORCIADO;60 a 64 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;9;6064;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+162;FEMININO;DIVORCIADO;60 a 64 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;6064;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+163;FEMININO;DIVORCIADO;60 a 64 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;6064;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+164;FEMININO;DIVORCIADO;60 a 64 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;9;6064;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+165;FEMININO;DIVORCIADO;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;4;9;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+166;FEMININO;DIVORCIADO;60 a 64 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;6064;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+167;FEMININO;DIVORCIADO;60 a 64 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;9;6064;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+168;FEMININO;DIVORCIADO;65 a 69 anos                  ;ANALFABETO;#NE;#NE;4;9;6569;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+169;FEMININO;DIVORCIADO;65 a 69 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;9;6569;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+170;FEMININO;DIVORCIADO;65 a 69 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;6569;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+171;FEMININO;DIVORCIADO;65 a 69 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;6569;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+172;FEMININO;DIVORCIADO;65 a 69 anos                  ;LÊ E ESCREVE;#NE;#NE;4;9;6569;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+173;FEMININO;DIVORCIADO;65 a 69 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;6569;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+174;FEMININO;DIVORCIADO;65 a 69 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;9;6569;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+175;FEMININO;DIVORCIADO;70 a 74 anos                  ;ANALFABETO;#NE;#NE;4;9;7074;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+176;FEMININO;DIVORCIADO;70 a 74 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;9;7074;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+177;FEMININO;DIVORCIADO;70 a 74 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;7074;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+178;FEMININO;DIVORCIADO;70 a 74 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;9;7074;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+179;FEMININO;DIVORCIADO;70 a 74 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;9;7074;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+180;FEMININO;DIVORCIADO;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;4;9;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+181;FEMININO;DIVORCIADO;70 a 74 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;7074;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+182;FEMININO;DIVORCIADO;75 a 79 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;9;7579;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+183;FEMININO;DIVORCIADO;75 a 79 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;7579;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+184;FEMININO;DIVORCIADO;75 a 79 anos                  ;LÊ E ESCREVE;#NE;#NE;4;9;7579;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+185;FEMININO;DIVORCIADO;75 a 79 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;7579;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+186;FEMININO;DIVORCIADO;80 a 84 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;8084;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+187;FEMININO;DIVORCIADO;80 a 84 anos                  ;LÊ E ESCREVE;#NE;#NE;4;9;8084;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+188;FEMININO;DIVORCIADO;80 a 84 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;9;8084;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+189;FEMININO;DIVORCIADO;80 a 84 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;9;8084;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+190;FEMININO;DIVORCIADO;90 a 94 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;9;9094;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+191;FEMININO;DIVORCIADO;95 a 99 anos                  ;LÊ E ESCREVE;#NE;#NE;4;9;9599;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+192;FEMININO;NÃO INFORMADO;50 a 54 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;0;5054;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+193;FEMININO;NÃO INFORMADO;50 a 54 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;0;5054;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+194;FEMININO;NÃO INFORMADO;50 a 54 anos                  ;LÊ E ESCREVE;#NE;#NE;4;0;5054;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+195;FEMININO;SEPARADO JUDICIALMENTE;21 a 24 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;7;2124;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+196;FEMININO;SEPARADO JUDICIALMENTE;30 a 34 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;7;3034;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+197;FEMININO;SEPARADO JUDICIALMENTE;30 a 34 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;7;3034;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+198;FEMININO;SEPARADO JUDICIALMENTE;35 a 39 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;3539;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+199;FEMININO;SEPARADO JUDICIALMENTE;35 a 39 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;7;3539;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+200;FEMININO;SEPARADO JUDICIALMENTE;35 a 39 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;7;3539;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+201;FEMININO;SEPARADO JUDICIALMENTE;40 a 44 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;7;4044;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+202;FEMININO;SEPARADO JUDICIALMENTE;40 a 44 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;7;4044;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+203;FEMININO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;7;4549;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+204;FEMININO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;4549;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+205;FEMININO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;7;4549;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+206;FEMININO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;7;4549;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+207;FEMININO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;7;4549;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+208;FEMININO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;7;5054;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+209;FEMININO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;5054;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+210;FEMININO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;7;5054;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+211;FEMININO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;7;5054;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+212;FEMININO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;LÊ E ESCREVE;#NE;#NE;4;7;5054;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+213;FEMININO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;7;5054;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+214;FEMININO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;7;5559;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+215;FEMININO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;5559;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+216;FEMININO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;7;5559;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+217;FEMININO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;7;5559;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+218;FEMININO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;7;5559;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+219;FEMININO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;ANALFABETO;#NE;#NE;4;7;6064;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+220;FEMININO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;7;6064;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+221;FEMININO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;6064;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+222;FEMININO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;7;6064;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+223;FEMININO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;7;6064;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+224;FEMININO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;4;7;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+225;FEMININO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;7;6064;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+226;FEMININO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;ANALFABETO;#NE;#NE;4;7;6569;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+227;FEMININO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;7;6569;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+228;FEMININO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;6569;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+229;FEMININO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;7;6569;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+230;FEMININO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;LÊ E ESCREVE;#NE;#NE;4;7;6569;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+231;FEMININO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;7;6569;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+232;FEMININO;SEPARADO JUDICIALMENTE;70 a 74 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;7;7074;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+233;FEMININO;SEPARADO JUDICIALMENTE;70 a 74 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;7074;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+234;FEMININO;SEPARADO JUDICIALMENTE;70 a 74 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;7;7074;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+235;FEMININO;SEPARADO JUDICIALMENTE;70 a 74 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;7;7074;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+236;FEMININO;SEPARADO JUDICIALMENTE;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;4;7;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+237;FEMININO;SEPARADO JUDICIALMENTE;70 a 74 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;7;7074;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+238;FEMININO;SEPARADO JUDICIALMENTE;75 a 79 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;7;7579;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+239;FEMININO;SEPARADO JUDICIALMENTE;75 a 79 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;7579;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+240;FEMININO;SEPARADO JUDICIALMENTE;75 a 79 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;7;7579;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+241;FEMININO;SEPARADO JUDICIALMENTE;75 a 79 anos                  ;LÊ E ESCREVE;#NE;#NE;4;7;7579;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+242;FEMININO;SEPARADO JUDICIALMENTE;80 a 84 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;8084;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+243;FEMININO;SEPARADO JUDICIALMENTE;80 a 84 anos                  ;LÊ E ESCREVE;#NE;#NE;4;7;8084;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+244;FEMININO;SEPARADO JUDICIALMENTE;85 a 89 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;7;8589;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+245;FEMININO;SEPARADO JUDICIALMENTE;90 a 94 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;9094;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+246;FEMININO;SEPARADO JUDICIALMENTE;95 a 99 anos                  ;ANALFABETO;#NE;#NE;4;7;9599;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+247;FEMININO;SEPARADO JUDICIALMENTE;95 a 99 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;7;9599;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+248;FEMININO;SOLTEIRO;16 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;1600;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+249;FEMININO;SOLTEIRO;17 anos                       ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;1700;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+250;FEMININO;SOLTEIRO;17 anos                       ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;1700;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+251;FEMININO;SOLTEIRO;17 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;1700;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+252;FEMININO;SOLTEIRO;17 anos                       ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;1700;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+253;FEMININO;SOLTEIRO;18 anos                       ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;1800;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+254;FEMININO;SOLTEIRO;18 anos                       ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;1800;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+255;FEMININO;SOLTEIRO;18 anos                       ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;1800;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+256;FEMININO;SOLTEIRO;18 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;1800;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+257;FEMININO;SOLTEIRO;18 anos                       ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;1800;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+258;FEMININO;SOLTEIRO;19 anos                       ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;1900;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+259;FEMININO;SOLTEIRO;19 anos                       ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;1900;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+260;FEMININO;SOLTEIRO;19 anos                       ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;1900;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+261;FEMININO;SOLTEIRO;19 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;1900;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+262;FEMININO;SOLTEIRO;19 anos                       ;SUPERIOR COMPLETO;#NE;#NE;4;1;1900;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+263;FEMININO;SOLTEIRO;19 anos                       ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;1900;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+264;FEMININO;SOLTEIRO;20 anos                       ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;2000;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+265;FEMININO;SOLTEIRO;20 anos                       ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;2000;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+266;FEMININO;SOLTEIRO;20 anos                       ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;2000;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+267;FEMININO;SOLTEIRO;20 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;2000;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+268;FEMININO;SOLTEIRO;20 anos                       ;SUPERIOR COMPLETO;#NE;#NE;4;1;2000;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+269;FEMININO;SOLTEIRO;20 anos                       ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;2000;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+270;FEMININO;SOLTEIRO;21 a 24 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;2124;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+271;FEMININO;SOLTEIRO;21 a 24 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;2124;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+272;FEMININO;SOLTEIRO;21 a 24 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;2124;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+273;FEMININO;SOLTEIRO;21 a 24 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;2124;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+274;FEMININO;SOLTEIRO;21 a 24 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;2124;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+275;FEMININO;SOLTEIRO;21 a 24 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;2124;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+276;FEMININO;SOLTEIRO;21 a 24 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;2124;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+277;FEMININO;SOLTEIRO;25 a 29 anos                  ;ANALFABETO;#NE;#NE;4;1;2529;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+278;FEMININO;SOLTEIRO;25 a 29 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;2529;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+279;FEMININO;SOLTEIRO;25 a 29 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;2529;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+280;FEMININO;SOLTEIRO;25 a 29 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;2529;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+281;FEMININO;SOLTEIRO;25 a 29 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;2529;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+282;FEMININO;SOLTEIRO;25 a 29 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;2529;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+283;FEMININO;SOLTEIRO;25 a 29 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;2529;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+284;FEMININO;SOLTEIRO;25 a 29 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;2529;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+285;FEMININO;SOLTEIRO;30 a 34 anos                  ;ANALFABETO;#NE;#NE;4;1;3034;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+286;FEMININO;SOLTEIRO;30 a 34 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;3034;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+287;FEMININO;SOLTEIRO;30 a 34 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;3034;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+288;FEMININO;SOLTEIRO;30 a 34 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;3034;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+289;FEMININO;SOLTEIRO;30 a 34 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;3034;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+290;FEMININO;SOLTEIRO;30 a 34 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;3034;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+291;FEMININO;SOLTEIRO;30 a 34 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;3034;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+292;FEMININO;SOLTEIRO;30 a 34 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;3034;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+293;FEMININO;SOLTEIRO;35 a 39 anos                  ;ANALFABETO;#NE;#NE;4;1;3539;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+294;FEMININO;SOLTEIRO;35 a 39 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;3539;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+295;FEMININO;SOLTEIRO;35 a 39 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;3539;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+296;FEMININO;SOLTEIRO;35 a 39 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;3539;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+297;FEMININO;SOLTEIRO;35 a 39 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;3539;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+298;FEMININO;SOLTEIRO;35 a 39 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;3539;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+299;FEMININO;SOLTEIRO;35 a 39 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;3539;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+300;FEMININO;SOLTEIRO;35 a 39 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;3539;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+301;FEMININO;SOLTEIRO;40 a 44 anos                  ;ANALFABETO;#NE;#NE;4;1;4044;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+302;FEMININO;SOLTEIRO;40 a 44 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;4044;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+303;FEMININO;SOLTEIRO;40 a 44 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;4044;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+304;FEMININO;SOLTEIRO;40 a 44 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;4044;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+305;FEMININO;SOLTEIRO;40 a 44 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;4044;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+306;FEMININO;SOLTEIRO;40 a 44 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;4044;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+307;FEMININO;SOLTEIRO;40 a 44 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;4044;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+308;FEMININO;SOLTEIRO;40 a 44 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;4044;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+309;FEMININO;SOLTEIRO;45 a 49 anos                  ;ANALFABETO;#NE;#NE;4;1;4549;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+310;FEMININO;SOLTEIRO;45 a 49 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;4549;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+311;FEMININO;SOLTEIRO;45 a 49 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;4549;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+312;FEMININO;SOLTEIRO;45 a 49 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;4549;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+313;FEMININO;SOLTEIRO;45 a 49 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;4549;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+314;FEMININO;SOLTEIRO;45 a 49 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;4549;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+315;FEMININO;SOLTEIRO;45 a 49 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;4549;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+316;FEMININO;SOLTEIRO;45 a 49 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;4549;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+317;FEMININO;SOLTEIRO;50 a 54 anos                  ;ANALFABETO;#NE;#NE;4;1;5054;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+318;FEMININO;SOLTEIRO;50 a 54 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;5054;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+319;FEMININO;SOLTEIRO;50 a 54 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;5054;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+320;FEMININO;SOLTEIRO;50 a 54 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;5054;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+321;FEMININO;SOLTEIRO;50 a 54 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;5054;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+322;FEMININO;SOLTEIRO;50 a 54 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;5054;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+323;FEMININO;SOLTEIRO;50 a 54 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;5054;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+324;FEMININO;SOLTEIRO;50 a 54 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;5054;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+325;FEMININO;SOLTEIRO;55 a 59 anos                  ;ANALFABETO;#NE;#NE;4;1;5559;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+326;FEMININO;SOLTEIRO;55 a 59 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;5559;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+327;FEMININO;SOLTEIRO;55 a 59 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;5559;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+328;FEMININO;SOLTEIRO;55 a 59 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;5559;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+329;FEMININO;SOLTEIRO;55 a 59 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;5559;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+330;FEMININO;SOLTEIRO;55 a 59 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;5559;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+331;FEMININO;SOLTEIRO;55 a 59 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;5559;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+332;FEMININO;SOLTEIRO;55 a 59 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;5559;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+333;FEMININO;SOLTEIRO;60 a 64 anos                  ;ANALFABETO;#NE;#NE;4;1;6064;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+334;FEMININO;SOLTEIRO;60 a 64 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;6064;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+335;FEMININO;SOLTEIRO;60 a 64 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;6064;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+336;FEMININO;SOLTEIRO;60 a 64 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;6064;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+337;FEMININO;SOLTEIRO;60 a 64 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;6064;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+338;FEMININO;SOLTEIRO;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+339;FEMININO;SOLTEIRO;60 a 64 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;6064;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+340;FEMININO;SOLTEIRO;60 a 64 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;6064;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+341;FEMININO;SOLTEIRO;65 a 69 anos                  ;ANALFABETO;#NE;#NE;4;1;6569;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+342;FEMININO;SOLTEIRO;65 a 69 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;6569;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+343;FEMININO;SOLTEIRO;65 a 69 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;6569;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+344;FEMININO;SOLTEIRO;65 a 69 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;6569;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+345;FEMININO;SOLTEIRO;65 a 69 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;6569;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+346;FEMININO;SOLTEIRO;65 a 69 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;6569;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+347;FEMININO;SOLTEIRO;65 a 69 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;6569;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+348;FEMININO;SOLTEIRO;65 a 69 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;6569;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+349;FEMININO;SOLTEIRO;70 a 74 anos                  ;ANALFABETO;#NE;#NE;4;1;7074;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+350;FEMININO;SOLTEIRO;70 a 74 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;7074;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+351;FEMININO;SOLTEIRO;70 a 74 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;7074;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+352;FEMININO;SOLTEIRO;70 a 74 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;7074;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+353;FEMININO;SOLTEIRO;70 a 74 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;1;7074;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+354;FEMININO;SOLTEIRO;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+355;FEMININO;SOLTEIRO;70 a 74 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;7074;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+356;FEMININO;SOLTEIRO;70 a 74 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;1;7074;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+357;FEMININO;SOLTEIRO;75 a 79 anos                  ;ANALFABETO;#NE;#NE;4;1;7579;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+358;FEMININO;SOLTEIRO;75 a 79 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;7579;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+359;FEMININO;SOLTEIRO;75 a 79 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;7579;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+360;FEMININO;SOLTEIRO;75 a 79 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;7579;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+361;FEMININO;SOLTEIRO;75 a 79 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;7579;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+362;FEMININO;SOLTEIRO;75 a 79 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;7579;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+363;FEMININO;SOLTEIRO;80 a 84 anos                  ;ANALFABETO;#NE;#NE;4;1;8084;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+364;FEMININO;SOLTEIRO;80 a 84 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;8084;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+365;FEMININO;SOLTEIRO;80 a 84 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;1;8084;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+366;FEMININO;SOLTEIRO;80 a 84 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;8084;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+367;FEMININO;SOLTEIRO;80 a 84 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;8084;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+368;FEMININO;SOLTEIRO;85 a 89 anos                  ;ANALFABETO;#NE;#NE;4;1;8589;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+369;FEMININO;SOLTEIRO;85 a 89 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;8589;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+370;FEMININO;SOLTEIRO;85 a 89 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;1;8589;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+371;FEMININO;SOLTEIRO;85 a 89 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;1;8589;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+372;FEMININO;SOLTEIRO;90 a 94 anos                  ;ANALFABETO;#NE;#NE;4;1;9094;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+373;FEMININO;SOLTEIRO;90 a 94 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;1;9094;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+374;FEMININO;SOLTEIRO;90 a 94 anos                  ;LÊ E ESCREVE;#NE;#NE;4;1;9094;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+375;FEMININO;VIÚVO;100 anos ou mais              ;ANALFABETO;#NE;#NE;4;5;9999;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+376;FEMININO;VIÚVO;30 a 34 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;5;3034;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+377;FEMININO;VIÚVO;35 a 39 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;3539;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+378;FEMININO;VIÚVO;35 a 39 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;5;3539;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+379;FEMININO;VIÚVO;35 a 39 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;3539;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+380;FEMININO;VIÚVO;35 a 39 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;5;3539;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+381;FEMININO;VIÚVO;40 a 44 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;4044;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+382;FEMININO;VIÚVO;40 a 44 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;4044;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+383;FEMININO;VIÚVO;40 a 44 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;4044;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+384;FEMININO;VIÚVO;45 a 49 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;4549;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+385;FEMININO;VIÚVO;45 a 49 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;4549;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+386;FEMININO;VIÚVO;45 a 49 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;4549;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+387;FEMININO;VIÚVO;45 a 49 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;5;4549;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+388;FEMININO;VIÚVO;45 a 49 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;4549;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+389;FEMININO;VIÚVO;50 a 54 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;5054;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+390;FEMININO;VIÚVO;50 a 54 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;5054;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+391;FEMININO;VIÚVO;50 a 54 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;5054;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+392;FEMININO;VIÚVO;50 a 54 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;5;5054;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+393;FEMININO;VIÚVO;50 a 54 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;5054;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+394;FEMININO;VIÚVO;50 a 54 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;5;5054;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+395;FEMININO;VIÚVO;55 a 59 anos                  ;ANALFABETO;#NE;#NE;4;5;5559;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+396;FEMININO;VIÚVO;55 a 59 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;5559;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+397;FEMININO;VIÚVO;55 a 59 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;5559;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+398;FEMININO;VIÚVO;55 a 59 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;5559;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+399;FEMININO;VIÚVO;55 a 59 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;5;5559;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+400;FEMININO;VIÚVO;55 a 59 anos                  ;LÊ E ESCREVE;#NE;#NE;4;5;5559;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+401;FEMININO;VIÚVO;55 a 59 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;5559;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+402;FEMININO;VIÚVO;55 a 59 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;5;5559;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+403;FEMININO;VIÚVO;60 a 64 anos                  ;ANALFABETO;#NE;#NE;4;5;6064;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+404;FEMININO;VIÚVO;60 a 64 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;6064;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+405;FEMININO;VIÚVO;60 a 64 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;6064;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+406;FEMININO;VIÚVO;60 a 64 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;6064;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+407;FEMININO;VIÚVO;60 a 64 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;5;6064;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+408;FEMININO;VIÚVO;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;4;5;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+409;FEMININO;VIÚVO;60 a 64 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;6064;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+410;FEMININO;VIÚVO;60 a 64 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;5;6064;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+411;FEMININO;VIÚVO;65 a 69 anos                  ;ANALFABETO;#NE;#NE;4;5;6569;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+412;FEMININO;VIÚVO;65 a 69 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;6569;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+413;FEMININO;VIÚVO;65 a 69 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;6569;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+414;FEMININO;VIÚVO;65 a 69 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;6569;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+415;FEMININO;VIÚVO;65 a 69 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;5;6569;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+416;FEMININO;VIÚVO;65 a 69 anos                  ;LÊ E ESCREVE;#NE;#NE;4;5;6569;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+417;FEMININO;VIÚVO;65 a 69 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;6569;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+418;FEMININO;VIÚVO;65 a 69 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;5;6569;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+419;FEMININO;VIÚVO;70 a 74 anos                  ;ANALFABETO;#NE;#NE;4;5;7074;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+420;FEMININO;VIÚVO;70 a 74 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;7074;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+421;FEMININO;VIÚVO;70 a 74 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;7074;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+422;FEMININO;VIÚVO;70 a 74 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;7074;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+423;FEMININO;VIÚVO;70 a 74 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;5;7074;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+424;FEMININO;VIÚVO;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;4;5;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+425;FEMININO;VIÚVO;70 a 74 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;7074;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+426;FEMININO;VIÚVO;70 a 74 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;4;5;7074;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+427;FEMININO;VIÚVO;75 a 79 anos                  ;ANALFABETO;#NE;#NE;4;5;7579;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+428;FEMININO;VIÚVO;75 a 79 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;7579;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+429;FEMININO;VIÚVO;75 a 79 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;7579;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+430;FEMININO;VIÚVO;75 a 79 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;7579;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+431;FEMININO;VIÚVO;75 a 79 anos                  ;LÊ E ESCREVE;#NE;#NE;4;5;7579;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+432;FEMININO;VIÚVO;75 a 79 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;7579;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+433;FEMININO;VIÚVO;80 a 84 anos                  ;ANALFABETO;#NE;#NE;4;5;8084;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+434;FEMININO;VIÚVO;80 a 84 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;8084;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+435;FEMININO;VIÚVO;80 a 84 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;8084;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+436;FEMININO;VIÚVO;80 a 84 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;8084;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+437;FEMININO;VIÚVO;80 a 84 anos                  ;LÊ E ESCREVE;#NE;#NE;4;5;8084;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+438;FEMININO;VIÚVO;80 a 84 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;8084;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+439;FEMININO;VIÚVO;85 a 89 anos                  ;ANALFABETO;#NE;#NE;4;5;8589;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+440;FEMININO;VIÚVO;85 a 89 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;8589;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+441;FEMININO;VIÚVO;85 a 89 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;8589;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+442;FEMININO;VIÚVO;85 a 89 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;4;5;8589;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+443;FEMININO;VIÚVO;85 a 89 anos                  ;LÊ E ESCREVE;#NE;#NE;4;5;8589;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+444;FEMININO;VIÚVO;90 a 94 anos                  ;ANALFABETO;#NE;#NE;4;5;9094;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+445;FEMININO;VIÚVO;90 a 94 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;9094;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+446;FEMININO;VIÚVO;90 a 94 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;9094;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+447;FEMININO;VIÚVO;90 a 94 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;9094;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+448;FEMININO;VIÚVO;90 a 94 anos                  ;LÊ E ESCREVE;#NE;#NE;4;5;9094;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+449;FEMININO;VIÚVO;90 a 94 anos                  ;SUPERIOR COMPLETO;#NE;#NE;4;5;9094;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+450;FEMININO;VIÚVO;95 a 99 anos                  ;ANALFABETO;#NE;#NE;4;5;9599;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+451;FEMININO;VIÚVO;95 a 99 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;4;5;9599;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+452;FEMININO;VIÚVO;95 a 99 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;4;5;9599;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+453;FEMININO;VIÚVO;95 a 99 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;4;5;9599;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+454;FEMININO;VIÚVO;95 a 99 anos                  ;LÊ E ESCREVE;#NE;#NE;4;5;9599;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+455;MASCULINO;CASADO;100 anos ou mais              ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;9999;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+456;MASCULINO;CASADO;100 anos ou mais              ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;9999;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+457;MASCULINO;CASADO;100 anos ou mais              ;LÊ E ESCREVE;#NE;#NE;2;3;9999;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+458;MASCULINO;CASADO;18 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;1800;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+459;MASCULINO;CASADO;19 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;1900;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+460;MASCULINO;CASADO;20 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;2000;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+461;MASCULINO;CASADO;21 a 24 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;2124;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+462;MASCULINO;CASADO;21 a 24 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;2124;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+463;MASCULINO;CASADO;21 a 24 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;2124;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+464;MASCULINO;CASADO;21 a 24 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;2124;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+465;MASCULINO;CASADO;25 a 29 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;2529;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+466;MASCULINO;CASADO;25 a 29 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;2529;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+467;MASCULINO;CASADO;25 a 29 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;2529;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+468;MASCULINO;CASADO;25 a 29 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;2529;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+469;MASCULINO;CASADO;25 a 29 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;2529;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+470;MASCULINO;CASADO;25 a 29 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;2529;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+471;MASCULINO;CASADO;30 a 34 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;3034;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+472;MASCULINO;CASADO;30 a 34 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;3034;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+473;MASCULINO;CASADO;30 a 34 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;3034;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+474;MASCULINO;CASADO;30 a 34 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;3034;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+475;MASCULINO;CASADO;30 a 34 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;3034;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+476;MASCULINO;CASADO;30 a 34 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;3034;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+477;MASCULINO;CASADO;30 a 34 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;3034;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+478;MASCULINO;CASADO;35 a 39 anos                  ;ANALFABETO;#NE;#NE;2;3;3539;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+479;MASCULINO;CASADO;35 a 39 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;3539;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+480;MASCULINO;CASADO;35 a 39 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;3539;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+481;MASCULINO;CASADO;35 a 39 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;3539;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+482;MASCULINO;CASADO;35 a 39 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;3539;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+483;MASCULINO;CASADO;35 a 39 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;3539;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+484;MASCULINO;CASADO;35 a 39 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;3539;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+485;MASCULINO;CASADO;35 a 39 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;3539;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+486;MASCULINO;CASADO;40 a 44 anos                  ;ANALFABETO;#NE;#NE;2;3;4044;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+487;MASCULINO;CASADO;40 a 44 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;4044;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+488;MASCULINO;CASADO;40 a 44 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;4044;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+489;MASCULINO;CASADO;40 a 44 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;4044;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+490;MASCULINO;CASADO;40 a 44 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;4044;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+491;MASCULINO;CASADO;40 a 44 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;4044;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+492;MASCULINO;CASADO;40 a 44 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;4044;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+493;MASCULINO;CASADO;40 a 44 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;4044;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+494;MASCULINO;CASADO;45 a 49 anos                  ;ANALFABETO;#NE;#NE;2;3;4549;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+495;MASCULINO;CASADO;45 a 49 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;4549;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+496;MASCULINO;CASADO;45 a 49 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;4549;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+497;MASCULINO;CASADO;45 a 49 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;4549;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+498;MASCULINO;CASADO;45 a 49 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;4549;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+499;MASCULINO;CASADO;45 a 49 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;4549;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+500;MASCULINO;CASADO;45 a 49 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;4549;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+501;MASCULINO;CASADO;45 a 49 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;4549;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+502;MASCULINO;CASADO;50 a 54 anos                  ;ANALFABETO;#NE;#NE;2;3;5054;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+503;MASCULINO;CASADO;50 a 54 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;5054;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+504;MASCULINO;CASADO;50 a 54 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;5054;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+505;MASCULINO;CASADO;50 a 54 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;5054;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+506;MASCULINO;CASADO;50 a 54 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;5054;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+507;MASCULINO;CASADO;50 a 54 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;5054;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+508;MASCULINO;CASADO;50 a 54 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;5054;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+509;MASCULINO;CASADO;50 a 54 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;5054;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+510;MASCULINO;CASADO;55 a 59 anos                  ;ANALFABETO;#NE;#NE;2;3;5559;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+511;MASCULINO;CASADO;55 a 59 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;5559;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+512;MASCULINO;CASADO;55 a 59 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;5559;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+513;MASCULINO;CASADO;55 a 59 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;5559;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+514;MASCULINO;CASADO;55 a 59 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;5559;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+515;MASCULINO;CASADO;55 a 59 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;5559;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+516;MASCULINO;CASADO;55 a 59 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;5559;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+517;MASCULINO;CASADO;55 a 59 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;5559;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+518;MASCULINO;CASADO;60 a 64 anos                  ;ANALFABETO;#NE;#NE;2;3;6064;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+519;MASCULINO;CASADO;60 a 64 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;6064;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+520;MASCULINO;CASADO;60 a 64 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;6064;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+521;MASCULINO;CASADO;60 a 64 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;6064;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+522;MASCULINO;CASADO;60 a 64 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;6064;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+523;MASCULINO;CASADO;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+524;MASCULINO;CASADO;60 a 64 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;6064;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+525;MASCULINO;CASADO;60 a 64 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;6064;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+526;MASCULINO;CASADO;65 a 69 anos                  ;ANALFABETO;#NE;#NE;2;3;6569;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+527;MASCULINO;CASADO;65 a 69 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;6569;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+528;MASCULINO;CASADO;65 a 69 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;6569;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+529;MASCULINO;CASADO;65 a 69 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;6569;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+530;MASCULINO;CASADO;65 a 69 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;6569;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+531;MASCULINO;CASADO;65 a 69 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;6569;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+532;MASCULINO;CASADO;65 a 69 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;6569;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+533;MASCULINO;CASADO;65 a 69 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;6569;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+534;MASCULINO;CASADO;70 a 74 anos                  ;ANALFABETO;#NE;#NE;2;3;7074;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+535;MASCULINO;CASADO;70 a 74 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;7074;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+536;MASCULINO;CASADO;70 a 74 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;7074;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+537;MASCULINO;CASADO;70 a 74 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;7074;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+538;MASCULINO;CASADO;70 a 74 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;7074;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+539;MASCULINO;CASADO;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+540;MASCULINO;CASADO;70 a 74 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;7074;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+541;MASCULINO;CASADO;70 a 74 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;7074;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+542;MASCULINO;CASADO;75 a 79 anos                  ;ANALFABETO;#NE;#NE;2;3;7579;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+543;MASCULINO;CASADO;75 a 79 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;7579;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+544;MASCULINO;CASADO;75 a 79 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;7579;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+545;MASCULINO;CASADO;75 a 79 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;7579;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+546;MASCULINO;CASADO;75 a 79 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;7579;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+547;MASCULINO;CASADO;75 a 79 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;7579;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+548;MASCULINO;CASADO;75 a 79 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;7579;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+549;MASCULINO;CASADO;80 a 84 anos                  ;ANALFABETO;#NE;#NE;2;3;8084;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+550;MASCULINO;CASADO;80 a 84 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;8084;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+551;MASCULINO;CASADO;80 a 84 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;8084;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+552;MASCULINO;CASADO;80 a 84 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;8084;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+553;MASCULINO;CASADO;80 a 84 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;8084;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+554;MASCULINO;CASADO;80 a 84 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;8084;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+555;MASCULINO;CASADO;80 a 84 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;8084;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+556;MASCULINO;CASADO;80 a 84 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;8084;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+557;MASCULINO;CASADO;85 a 89 anos                  ;ANALFABETO;#NE;#NE;2;3;8589;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+558;MASCULINO;CASADO;85 a 89 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;8589;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+559;MASCULINO;CASADO;85 a 89 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;8589;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+560;MASCULINO;CASADO;85 a 89 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;8589;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+561;MASCULINO;CASADO;85 a 89 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;8589;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+562;MASCULINO;CASADO;85 a 89 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;8589;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+563;MASCULINO;CASADO;85 a 89 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;8589;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+564;MASCULINO;CASADO;85 a 89 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;8589;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+565;MASCULINO;CASADO;90 a 94 anos                  ;ANALFABETO;#NE;#NE;2;3;9094;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+566;MASCULINO;CASADO;90 a 94 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;9094;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+567;MASCULINO;CASADO;90 a 94 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;9094;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+568;MASCULINO;CASADO;90 a 94 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;9094;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+569;MASCULINO;CASADO;90 a 94 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;3;9094;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+570;MASCULINO;CASADO;90 a 94 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;9094;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+571;MASCULINO;CASADO;90 a 94 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;3;9094;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+572;MASCULINO;CASADO;95 a 99 anos                  ;ANALFABETO;#NE;#NE;2;3;9599;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+573;MASCULINO;CASADO;95 a 99 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;9599;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+574;MASCULINO;CASADO;95 a 99 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;3;9599;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+575;MASCULINO;CASADO;95 a 99 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;3;9599;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+576;MASCULINO;CASADO;95 a 99 anos                  ;LÊ E ESCREVE;#NE;#NE;2;3;9599;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+577;MASCULINO;CASADO;95 a 99 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;3;9599;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+578;MASCULINO;CASADO;Inválido                      ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;3;-3;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+579;MASCULINO;DIVORCIADO;25 a 29 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;2529;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+580;MASCULINO;DIVORCIADO;25 a 29 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;9;2529;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+581;MASCULINO;DIVORCIADO;25 a 29 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;2529;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+582;MASCULINO;DIVORCIADO;30 a 34 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;9;3034;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+583;MASCULINO;DIVORCIADO;30 a 34 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;3034;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+584;MASCULINO;DIVORCIADO;30 a 34 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;3034;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+585;MASCULINO;DIVORCIADO;30 a 34 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;9;3034;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+586;MASCULINO;DIVORCIADO;30 a 34 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;3034;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+587;MASCULINO;DIVORCIADO;30 a 34 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;9;3034;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+588;MASCULINO;DIVORCIADO;35 a 39 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;9;3539;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+589;MASCULINO;DIVORCIADO;35 a 39 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;3539;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+590;MASCULINO;DIVORCIADO;35 a 39 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;3539;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+591;MASCULINO;DIVORCIADO;35 a 39 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;9;3539;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+592;MASCULINO;DIVORCIADO;35 a 39 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;3539;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+593;MASCULINO;DIVORCIADO;35 a 39 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;9;3539;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+594;MASCULINO;DIVORCIADO;40 a 44 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;9;4044;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+595;MASCULINO;DIVORCIADO;40 a 44 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;4044;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+596;MASCULINO;DIVORCIADO;40 a 44 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;4044;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+597;MASCULINO;DIVORCIADO;40 a 44 anos                  ;LÊ E ESCREVE;#NE;#NE;2;9;4044;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+598;MASCULINO;DIVORCIADO;40 a 44 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;4044;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+599;MASCULINO;DIVORCIADO;40 a 44 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;9;4044;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+600;MASCULINO;DIVORCIADO;45 a 49 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;9;4549;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+601;MASCULINO;DIVORCIADO;45 a 49 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;4549;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+602;MASCULINO;DIVORCIADO;45 a 49 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;4549;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+603;MASCULINO;DIVORCIADO;45 a 49 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;9;4549;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+604;MASCULINO;DIVORCIADO;45 a 49 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;4549;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+605;MASCULINO;DIVORCIADO;45 a 49 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;9;4549;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+606;MASCULINO;DIVORCIADO;50 a 54 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;9;5054;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+607;MASCULINO;DIVORCIADO;50 a 54 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;5054;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+608;MASCULINO;DIVORCIADO;50 a 54 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;5054;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+609;MASCULINO;DIVORCIADO;50 a 54 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;9;5054;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+610;MASCULINO;DIVORCIADO;50 a 54 anos                  ;LÊ E ESCREVE;#NE;#NE;2;9;5054;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+611;MASCULINO;DIVORCIADO;50 a 54 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;5054;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+612;MASCULINO;DIVORCIADO;50 a 54 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;9;5054;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+613;MASCULINO;DIVORCIADO;55 a 59 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;9;5559;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+614;MASCULINO;DIVORCIADO;55 a 59 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;5559;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+615;MASCULINO;DIVORCIADO;55 a 59 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;5559;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+616;MASCULINO;DIVORCIADO;55 a 59 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;9;5559;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+617;MASCULINO;DIVORCIADO;55 a 59 anos                  ;LÊ E ESCREVE;#NE;#NE;2;9;5559;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+618;MASCULINO;DIVORCIADO;55 a 59 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;5559;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+619;MASCULINO;DIVORCIADO;55 a 59 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;9;5559;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+620;MASCULINO;DIVORCIADO;60 a 64 anos                  ;ANALFABETO;#NE;#NE;2;9;6064;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+621;MASCULINO;DIVORCIADO;60 a 64 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;9;6064;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+622;MASCULINO;DIVORCIADO;60 a 64 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;6064;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+623;MASCULINO;DIVORCIADO;60 a 64 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;6064;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+624;MASCULINO;DIVORCIADO;60 a 64 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;9;6064;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+625;MASCULINO;DIVORCIADO;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;2;9;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+626;MASCULINO;DIVORCIADO;60 a 64 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;6064;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+627;MASCULINO;DIVORCIADO;60 a 64 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;9;6064;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+628;MASCULINO;DIVORCIADO;65 a 69 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;9;6569;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+629;MASCULINO;DIVORCIADO;65 a 69 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;6569;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+630;MASCULINO;DIVORCIADO;65 a 69 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;6569;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+631;MASCULINO;DIVORCIADO;65 a 69 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;9;6569;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+632;MASCULINO;DIVORCIADO;65 a 69 anos                  ;LÊ E ESCREVE;#NE;#NE;2;9;6569;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+633;MASCULINO;DIVORCIADO;65 a 69 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;6569;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+634;MASCULINO;DIVORCIADO;65 a 69 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;9;6569;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+635;MASCULINO;DIVORCIADO;70 a 74 anos                  ;ANALFABETO;#NE;#NE;2;9;7074;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+636;MASCULINO;DIVORCIADO;70 a 74 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;9;7074;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+637;MASCULINO;DIVORCIADO;70 a 74 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;7074;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+638;MASCULINO;DIVORCIADO;70 a 74 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;7074;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+639;MASCULINO;DIVORCIADO;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;2;9;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+640;MASCULINO;DIVORCIADO;70 a 74 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;7074;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+641;MASCULINO;DIVORCIADO;75 a 79 anos                  ;ANALFABETO;#NE;#NE;2;9;7579;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+642;MASCULINO;DIVORCIADO;75 a 79 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;9;7579;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+643;MASCULINO;DIVORCIADO;75 a 79 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;7579;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+644;MASCULINO;DIVORCIADO;75 a 79 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;7579;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+645;MASCULINO;DIVORCIADO;75 a 79 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;9;7579;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+646;MASCULINO;DIVORCIADO;75 a 79 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;9;7579;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+647;MASCULINO;DIVORCIADO;80 a 84 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;9;8084;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+648;MASCULINO;DIVORCIADO;80 a 84 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;8084;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+649;MASCULINO;DIVORCIADO;90 a 94 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;9;9094;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+650;MASCULINO;NÃO INFORMADO;65 a 69 anos                  ;LÊ E ESCREVE;#NE;#NE;2;0;6569;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+651;MASCULINO;SEPARADO JUDICIALMENTE;35 a 39 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;7;3539;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+652;MASCULINO;SEPARADO JUDICIALMENTE;35 a 39 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;7;3539;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+653;MASCULINO;SEPARADO JUDICIALMENTE;35 a 39 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;7;3539;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+654;MASCULINO;SEPARADO JUDICIALMENTE;40 a 44 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;7;4044;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+655;MASCULINO;SEPARADO JUDICIALMENTE;40 a 44 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;7;4044;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+656;MASCULINO;SEPARADO JUDICIALMENTE;40 a 44 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;7;4044;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+657;MASCULINO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;7;4549;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+658;MASCULINO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;7;4549;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+659;MASCULINO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;7;4549;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+660;MASCULINO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;7;4549;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+661;MASCULINO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;7;4549;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+662;MASCULINO;SEPARADO JUDICIALMENTE;45 a 49 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;7;4549;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+663;MASCULINO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;7;5054;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+664;MASCULINO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;7;5054;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+665;MASCULINO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;7;5054;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+666;MASCULINO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;LÊ E ESCREVE;#NE;#NE;2;7;5054;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+667;MASCULINO;SEPARADO JUDICIALMENTE;50 a 54 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;7;5054;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+668;MASCULINO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;7;5559;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+669;MASCULINO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;7;5559;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+670;MASCULINO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;7;5559;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+671;MASCULINO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;7;5559;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+672;MASCULINO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;LÊ E ESCREVE;#NE;#NE;2;7;5559;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+673;MASCULINO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;7;5559;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+674;MASCULINO;SEPARADO JUDICIALMENTE;55 a 59 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;7;5559;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+675;MASCULINO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;7;6064;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+676;MASCULINO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;7;6064;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+677;MASCULINO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;7;6064;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+678;MASCULINO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;2;7;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+679;MASCULINO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;7;6064;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+680;MASCULINO;SEPARADO JUDICIALMENTE;60 a 64 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;7;6064;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+681;MASCULINO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;7;6569;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+682;MASCULINO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;7;6569;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+683;MASCULINO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;7;6569;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+684;MASCULINO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;7;6569;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+685;MASCULINO;SEPARADO JUDICIALMENTE;65 a 69 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;7;6569;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+686;MASCULINO;SEPARADO JUDICIALMENTE;70 a 74 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;7;7074;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+687;MASCULINO;SEPARADO JUDICIALMENTE;70 a 74 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;7;7074;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+688;MASCULINO;SEPARADO JUDICIALMENTE;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;2;7;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+689;MASCULINO;SEPARADO JUDICIALMENTE;75 a 79 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;7;7579;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+690;MASCULINO;SEPARADO JUDICIALMENTE;75 a 79 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;7;7579;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+691;MASCULINO;SEPARADO JUDICIALMENTE;75 a 79 anos                  ;LÊ E ESCREVE;#NE;#NE;2;7;7579;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+692;MASCULINO;SEPARADO JUDICIALMENTE;80 a 84 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;7;8084;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+693;MASCULINO;SEPARADO JUDICIALMENTE;85 a 89 anos                  ;ANALFABETO;#NE;#NE;2;7;8589;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+694;MASCULINO;SEPARADO JUDICIALMENTE;90 a 94 anos                  ;ANALFABETO;#NE;#NE;2;7;9094;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+695;MASCULINO;SEPARADO JUDICIALMENTE;90 a 94 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;7;9094;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+696;MASCULINO;SEPARADO JUDICIALMENTE;95 a 99 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;7;9599;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+697;MASCULINO;SOLTEIRO;16 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;1600;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+698;MASCULINO;SOLTEIRO;17 anos                       ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;1700;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+699;MASCULINO;SOLTEIRO;17 anos                       ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;1700;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+700;MASCULINO;SOLTEIRO;17 anos                       ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;1700;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+701;MASCULINO;SOLTEIRO;17 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;1700;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+702;MASCULINO;SOLTEIRO;17 anos                       ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;1700;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+703;MASCULINO;SOLTEIRO;18 anos                       ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;1800;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+704;MASCULINO;SOLTEIRO;18 anos                       ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;1800;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+705;MASCULINO;SOLTEIRO;18 anos                       ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;1800;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+706;MASCULINO;SOLTEIRO;18 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;1800;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+707;MASCULINO;SOLTEIRO;18 anos                       ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;1800;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+708;MASCULINO;SOLTEIRO;19 anos                       ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;1900;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+709;MASCULINO;SOLTEIRO;19 anos                       ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;1900;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+710;MASCULINO;SOLTEIRO;19 anos                       ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;1900;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+711;MASCULINO;SOLTEIRO;19 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;1900;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+712;MASCULINO;SOLTEIRO;19 anos                       ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;1900;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+713;MASCULINO;SOLTEIRO;20 anos                       ;ANALFABETO;#NE;#NE;2;1;2000;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+714;MASCULINO;SOLTEIRO;20 anos                       ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;2000;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+715;MASCULINO;SOLTEIRO;20 anos                       ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;2000;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+716;MASCULINO;SOLTEIRO;20 anos                       ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;2000;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+717;MASCULINO;SOLTEIRO;20 anos                       ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;2000;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+718;MASCULINO;SOLTEIRO;20 anos                       ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;2000;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+719;MASCULINO;SOLTEIRO;21 a 24 anos                  ;ANALFABETO;#NE;#NE;2;1;2124;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+720;MASCULINO;SOLTEIRO;21 a 24 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;2124;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+721;MASCULINO;SOLTEIRO;21 a 24 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;2124;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+722;MASCULINO;SOLTEIRO;21 a 24 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;2124;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+723;MASCULINO;SOLTEIRO;21 a 24 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;2124;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+724;MASCULINO;SOLTEIRO;21 a 24 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;2124;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+725;MASCULINO;SOLTEIRO;21 a 24 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;2124;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+726;MASCULINO;SOLTEIRO;25 a 29 anos                  ;ANALFABETO;#NE;#NE;2;1;2529;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+727;MASCULINO;SOLTEIRO;25 a 29 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;2529;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+728;MASCULINO;SOLTEIRO;25 a 29 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;2529;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+729;MASCULINO;SOLTEIRO;25 a 29 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;2529;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+730;MASCULINO;SOLTEIRO;25 a 29 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;2529;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+731;MASCULINO;SOLTEIRO;25 a 29 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;2529;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+732;MASCULINO;SOLTEIRO;25 a 29 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;2529;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+733;MASCULINO;SOLTEIRO;25 a 29 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;2529;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+734;MASCULINO;SOLTEIRO;30 a 34 anos                  ;ANALFABETO;#NE;#NE;2;1;3034;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+735;MASCULINO;SOLTEIRO;30 a 34 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;3034;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+736;MASCULINO;SOLTEIRO;30 a 34 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;3034;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+737;MASCULINO;SOLTEIRO;30 a 34 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;3034;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+738;MASCULINO;SOLTEIRO;30 a 34 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;3034;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+739;MASCULINO;SOLTEIRO;30 a 34 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;3034;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+740;MASCULINO;SOLTEIRO;30 a 34 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;3034;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+741;MASCULINO;SOLTEIRO;30 a 34 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;3034;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+742;MASCULINO;SOLTEIRO;35 a 39 anos                  ;ANALFABETO;#NE;#NE;2;1;3539;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+743;MASCULINO;SOLTEIRO;35 a 39 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;3539;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+744;MASCULINO;SOLTEIRO;35 a 39 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;3539;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+745;MASCULINO;SOLTEIRO;35 a 39 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;3539;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+746;MASCULINO;SOLTEIRO;35 a 39 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;3539;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+747;MASCULINO;SOLTEIRO;35 a 39 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;3539;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+748;MASCULINO;SOLTEIRO;35 a 39 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;3539;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+749;MASCULINO;SOLTEIRO;35 a 39 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;3539;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+750;MASCULINO;SOLTEIRO;40 a 44 anos                  ;ANALFABETO;#NE;#NE;2;1;4044;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+751;MASCULINO;SOLTEIRO;40 a 44 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;4044;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+752;MASCULINO;SOLTEIRO;40 a 44 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;4044;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+753;MASCULINO;SOLTEIRO;40 a 44 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;4044;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+754;MASCULINO;SOLTEIRO;40 a 44 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;4044;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+755;MASCULINO;SOLTEIRO;40 a 44 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;4044;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+756;MASCULINO;SOLTEIRO;40 a 44 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;4044;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+757;MASCULINO;SOLTEIRO;40 a 44 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;4044;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+758;MASCULINO;SOLTEIRO;45 a 49 anos                  ;ANALFABETO;#NE;#NE;2;1;4549;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+759;MASCULINO;SOLTEIRO;45 a 49 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;4549;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+760;MASCULINO;SOLTEIRO;45 a 49 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;4549;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+761;MASCULINO;SOLTEIRO;45 a 49 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;4549;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+762;MASCULINO;SOLTEIRO;45 a 49 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;4549;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+763;MASCULINO;SOLTEIRO;45 a 49 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;4549;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+764;MASCULINO;SOLTEIRO;45 a 49 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;4549;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+765;MASCULINO;SOLTEIRO;45 a 49 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;4549;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+766;MASCULINO;SOLTEIRO;50 a 54 anos                  ;ANALFABETO;#NE;#NE;2;1;5054;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+767;MASCULINO;SOLTEIRO;50 a 54 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;5054;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+768;MASCULINO;SOLTEIRO;50 a 54 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;5054;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+769;MASCULINO;SOLTEIRO;50 a 54 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;5054;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+770;MASCULINO;SOLTEIRO;50 a 54 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;5054;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+771;MASCULINO;SOLTEIRO;50 a 54 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;5054;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+772;MASCULINO;SOLTEIRO;50 a 54 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;5054;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+773;MASCULINO;SOLTEIRO;50 a 54 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;5054;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+774;MASCULINO;SOLTEIRO;55 a 59 anos                  ;ANALFABETO;#NE;#NE;2;1;5559;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+775;MASCULINO;SOLTEIRO;55 a 59 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;5559;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+776;MASCULINO;SOLTEIRO;55 a 59 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;5559;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+777;MASCULINO;SOLTEIRO;55 a 59 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;5559;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+778;MASCULINO;SOLTEIRO;55 a 59 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;5559;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+779;MASCULINO;SOLTEIRO;55 a 59 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;5559;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+780;MASCULINO;SOLTEIRO;55 a 59 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;5559;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+781;MASCULINO;SOLTEIRO;55 a 59 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;5559;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+782;MASCULINO;SOLTEIRO;60 a 64 anos                  ;ANALFABETO;#NE;#NE;2;1;6064;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+783;MASCULINO;SOLTEIRO;60 a 64 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;6064;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+784;MASCULINO;SOLTEIRO;60 a 64 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;6064;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+785;MASCULINO;SOLTEIRO;60 a 64 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;6064;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+786;MASCULINO;SOLTEIRO;60 a 64 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;6064;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+787;MASCULINO;SOLTEIRO;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+788;MASCULINO;SOLTEIRO;60 a 64 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;6064;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+789;MASCULINO;SOLTEIRO;60 a 64 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;6064;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+790;MASCULINO;SOLTEIRO;65 a 69 anos                  ;ANALFABETO;#NE;#NE;2;1;6569;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+791;MASCULINO;SOLTEIRO;65 a 69 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;6569;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+792;MASCULINO;SOLTEIRO;65 a 69 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;6569;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+793;MASCULINO;SOLTEIRO;65 a 69 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;6569;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+794;MASCULINO;SOLTEIRO;65 a 69 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;6569;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+795;MASCULINO;SOLTEIRO;65 a 69 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;6569;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+796;MASCULINO;SOLTEIRO;65 a 69 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;6569;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+797;MASCULINO;SOLTEIRO;70 a 74 anos                  ;ANALFABETO;#NE;#NE;2;1;7074;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+798;MASCULINO;SOLTEIRO;70 a 74 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;7074;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+799;MASCULINO;SOLTEIRO;70 a 74 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;7074;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+800;MASCULINO;SOLTEIRO;70 a 74 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;7074;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+801;MASCULINO;SOLTEIRO;70 a 74 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;7074;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+802;MASCULINO;SOLTEIRO;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+803;MASCULINO;SOLTEIRO;70 a 74 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;7074;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+804;MASCULINO;SOLTEIRO;70 a 74 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;7074;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+805;MASCULINO;SOLTEIRO;75 a 79 anos                  ;ANALFABETO;#NE;#NE;2;1;7579;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+806;MASCULINO;SOLTEIRO;75 a 79 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;7579;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+807;MASCULINO;SOLTEIRO;75 a 79 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;1;7579;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+808;MASCULINO;SOLTEIRO;75 a 79 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;7579;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+809;MASCULINO;SOLTEIRO;75 a 79 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;7579;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+810;MASCULINO;SOLTEIRO;75 a 79 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;7579;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+811;MASCULINO;SOLTEIRO;75 a 79 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;1;7579;7;-3;-3;-3;#NE;-3;#NE;Facultativo
+812;MASCULINO;SOLTEIRO;80 a 84 anos                  ;ANALFABETO;#NE;#NE;2;1;8084;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+813;MASCULINO;SOLTEIRO;80 a 84 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;1;8084;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+814;MASCULINO;SOLTEIRO;80 a 84 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;8084;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+815;MASCULINO;SOLTEIRO;80 a 84 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;1;8084;5;-3;-3;-3;#NE;-3;#NE;Facultativo
+816;MASCULINO;SOLTEIRO;80 a 84 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;8084;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+817;MASCULINO;SOLTEIRO;80 a 84 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;8084;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+818;MASCULINO;SOLTEIRO;85 a 89 anos                  ;ANALFABETO;#NE;#NE;2;1;8589;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+819;MASCULINO;SOLTEIRO;85 a 89 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;8589;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+820;MASCULINO;SOLTEIRO;85 a 89 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;8589;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+821;MASCULINO;SOLTEIRO;85 a 89 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;8589;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+822;MASCULINO;SOLTEIRO;90 a 94 anos                  ;ANALFABETO;#NE;#NE;2;1;9094;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+823;MASCULINO;SOLTEIRO;90 a 94 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;1;9094;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+824;MASCULINO;SOLTEIRO;90 a 94 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;9094;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+825;MASCULINO;SOLTEIRO;95 a 99 anos                  ;LÊ E ESCREVE;#NE;#NE;2;1;9599;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+826;MASCULINO;SOLTEIRO;95 a 99 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;1;9599;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+827;MASCULINO;VIÚVO;30 a 34 anos                  ;ENSINO MÉDIO INCOMPLETO;#NE;#NE;2;5;3034;5;-3;-3;-3;#NE;-3;#NE;Obrigatório
+828;MASCULINO;VIÚVO;40 a 44 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;5;4044;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+829;MASCULINO;VIÚVO;40 a 44 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;5;4044;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+830;MASCULINO;VIÚVO;40 a 44 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;5;4044;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+831;MASCULINO;VIÚVO;45 a 49 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;5;4549;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+832;MASCULINO;VIÚVO;45 a 49 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;5;4549;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+833;MASCULINO;VIÚVO;50 a 54 anos                  ;ANALFABETO;#NE;#NE;2;5;5054;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+834;MASCULINO;VIÚVO;50 a 54 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;5;5054;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+835;MASCULINO;VIÚVO;50 a 54 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;5;5054;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+836;MASCULINO;VIÚVO;55 a 59 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;5;5559;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+837;MASCULINO;VIÚVO;55 a 59 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;5;5559;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+838;MASCULINO;VIÚVO;55 a 59 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;5;5559;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+839;MASCULINO;VIÚVO;55 a 59 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;5;5559;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+840;MASCULINO;VIÚVO;60 a 64 anos                  ;ANALFABETO;#NE;#NE;2;5;6064;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+841;MASCULINO;VIÚVO;60 a 64 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;5;6064;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+842;MASCULINO;VIÚVO;60 a 64 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;5;6064;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+843;MASCULINO;VIÚVO;60 a 64 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;5;6064;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+844;MASCULINO;VIÚVO;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;2;5;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+845;MASCULINO;VIÚVO;60 a 64 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;5;6064;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+846;MASCULINO;VIÚVO;60 a 64 anos                  ;SUPERIOR INCOMPLETO;#NE;#NE;2;5;6064;7;-3;-3;-3;#NE;-3;#NE;Obrigatório
+847;MASCULINO;VIÚVO;65 a 69 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;5;6569;4;-3;-3;-3;#NE;-3;#NE;Obrigatório
+848;MASCULINO;VIÚVO;65 a 69 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;5;6569;3;-3;-3;-3;#NE;-3;#NE;Obrigatório
+849;MASCULINO;VIÚVO;65 a 69 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;5;6569;6;-3;-3;-3;#NE;-3;#NE;Obrigatório
+850;MASCULINO;VIÚVO;65 a 69 anos                  ;LÊ E ESCREVE;#NE;#NE;2;5;6569;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+851;MASCULINO;VIÚVO;65 a 69 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;5;6569;8;-3;-3;-3;#NE;-3;#NE;Obrigatório
+852;MASCULINO;VIÚVO;70 a 74 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;5;7074;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+853;MASCULINO;VIÚVO;70 a 74 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;5;7074;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+854;MASCULINO;VIÚVO;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;2;5;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+855;MASCULINO;VIÚVO;75 a 79 anos                  ;ANALFABETO;#NE;#NE;2;5;7579;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+856;MASCULINO;VIÚVO;75 a 79 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;5;7579;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+857;MASCULINO;VIÚVO;75 a 79 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;5;7579;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+858;MASCULINO;VIÚVO;75 a 79 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;5;7579;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+859;MASCULINO;VIÚVO;75 a 79 anos                  ;LÊ E ESCREVE;#NE;#NE;2;5;7579;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+860;MASCULINO;VIÚVO;75 a 79 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;5;7579;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+861;MASCULINO;VIÚVO;80 a 84 anos                  ;ANALFABETO;#NE;#NE;2;5;8084;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+862;MASCULINO;VIÚVO;80 a 84 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;5;8084;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+863;MASCULINO;VIÚVO;80 a 84 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;5;8084;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+864;MASCULINO;VIÚVO;80 a 84 anos                  ;ENSINO MÉDIO COMPLETO;#NE;#NE;2;5;8084;6;-3;-3;-3;#NE;-3;#NE;Facultativo
+865;MASCULINO;VIÚVO;80 a 84 anos                  ;LÊ E ESCREVE;#NE;#NE;2;5;8084;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+866;MASCULINO;VIÚVO;80 a 84 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;5;8084;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+867;MASCULINO;VIÚVO;85 a 89 anos                  ;ANALFABETO;#NE;#NE;2;5;8589;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+868;MASCULINO;VIÚVO;85 a 89 anos                  ;ENSINO FUNDAMENTAL INCOMPLETO;#NE;#NE;2;5;8589;3;-3;-3;-3;#NE;-3;#NE;Facultativo
+869;MASCULINO;VIÚVO;90 a 94 anos                  ;ANALFABETO;#NE;#NE;2;5;9094;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+870;MASCULINO;VIÚVO;90 a 94 anos                  ;ENSINO FUNDAMENTAL COMPLETO;#NE;#NE;2;5;9094;4;-3;-3;-3;#NE;-3;#NE;Facultativo
+871;MASCULINO;VIÚVO;90 a 94 anos                  ;LÊ E ESCREVE;#NE;#NE;2;5;9094;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+872;MASCULINO;VIÚVO;90 a 94 anos                  ;SUPERIOR COMPLETO;#NE;#NE;2;5;9094;8;-3;-3;-3;#NE;-3;#NE;Facultativo
+873;NÃO INFORMADO;NÃO INFORMADO;60 a 64 anos                  ;LÊ E ESCREVE;#NE;#NE;0;0;6064;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
+874;NÃO INFORMADO;NÃO INFORMADO;70 a 74 anos                  ;LÊ E ESCREVE;#NE;#NE;0;0;7074;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+875;NÃO INFORMADO;NÃO INFORMADO;75 a 79 anos                  ;LÊ E ESCREVE;#NE;#NE;0;0;7579;2;-3;-3;-3;#NE;-3;#NE;Facultativo
+876;NÃO INFORMADO;NÃO INFORMADO;85 a 89 anos                  ;ANALFABETO;#NE;#NE;0;0;8589;1;-3;-3;-3;#NE;-3;#NE;Facultativo
+877;NÃO INFORMADO;SOLTEIRO;50 a 54 anos                  ;LÊ E ESCREVE;#NE;#NE;0;1;5054;2;-3;-3;-3;#NE;-3;#NE;Obrigatório
