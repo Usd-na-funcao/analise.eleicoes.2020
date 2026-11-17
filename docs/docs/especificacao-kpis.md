@@ -15,3 +15,37 @@ Este documento define as regras de negócio e as fórmulas em DAX para a constru
       SUM(fVotacao[qtd_votos]),
       fVotacao[tipo_voto] = "Válido"
   )
+
+% Comparecimento = 
+DIVIDE(
+    SUM(fComparecimento[qtd_comparecimento]),
+    [Eleitores Aptos],
+    0
+)
+
+% Abstencao = 
+DIVIDE(
+    SUM(fComparecimento[qtd_abstencoes]),
+    [Eleitores Aptos],
+    0
+)
+
+% Votos Validos = 
+VAR VotosCandidato = [Total Votos Validos]
+VAR TotalGeralCargo = 
+    CALCULATE(
+        [Total Votos Validos],
+        ALL(dCandidatos)
+    )
+RETURN
+DIVIDE(VotosCandidato, TotalGeralCargo, 0)
+
+% Brancos e Nulos = 
+VAR VotosNaoValidos = 
+    CALCULATE(
+        SUM(fVotacao[qtd_votos]),
+        fVotacao[tipo_voto] IN {"Branco", "Nulo"}
+    )
+RETURN
+DIVIDE(VotosNaoValidos, SUM(fComparecimento[qtd_comparecimento]), 0)
+
